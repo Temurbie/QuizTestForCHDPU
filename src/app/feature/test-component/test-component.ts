@@ -7,82 +7,89 @@ import { DATATEST, ITest } from '../../data/testData';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './test-component.html',
-  styleUrl: './test-component.css',
 })
 export class TestComponent implements OnInit {
 
-  // ======================
-  // STATE
-  // ======================
+  // ===== STATE =====
   currentIndex = signal<number>(0);
   allRandomTest = signal<ITest[]>([]);
 
   selectedAnswer: any = null;
   isLocked = false;
 
+  score = signal(0);
+  isFinished = signal(false);
+
+  // ===== TIMER =====
+  timeLeft = signal(30);
+  timer: any;
+
   allTest = DATATEST;
 
-  // ======================
-  // CURRENT QUESTION
-  // ======================
+  // ===== CURRENT QUESTION =====
   currentTest = computed(() => {
     const list = this.allRandomTest();
     const index = this.currentIndex();
     return list.length ? list[index] : null;
   });
 
-  // ======================
-  // INIT
-  // ======================
+  total = computed(() => this.allRandomTest().length);
+
+  // ===== INIT =====
   ngOnInit(): void {
     this.getRandomQuestion(this.allTest);
+    this.startTimer();
   }
 
-  // ======================
-  // RANDOM QUESTIONS
-  // ======================
+  // ===== RANDOM =====
   getRandomQuestion(allQuestion: ITest[]) {
     const shuffled = [...allQuestion].sort(() => Math.random() - 0.5);
-    const data = shuffled.slice(0, 30);
-    this.allRandomTest.set(data);
+    this.allRandomTest.set(shuffled.slice(0, 30));
   }
 
-  // ======================
-  // SELECT ANSWER
-  // ======================
+  // ===== TIMER =====
+  startTimer() {
+    this.timeLeft.set(30);
+    clearInterval(this.timer);
+
+    this.timer = setInterval(() => {
+      if (this.timeLeft() > 0) {
+        this.timeLeft.update(v => v - 1);
+      } else {
+        this.nextQuestion();
+      }
+    }, 1000);
+  }
+
+  // ===== SELECT =====
   selectAnswer(answer: any) {
     if (this.isLocked) return;
 
     this.selectedAnswer = answer;
     this.isLocked = true;
+
+    if (answer.correct) {
+      this.score.update(v => v + 1);
+    }
   }
 
-  // ======================
-  // NEXT QUESTION
-  // ======================
+  // ===== NEXT =====
   nextQuestion() {
+    clearInterval(this.timer);
+
     const list = this.allRandomTest();
 
-    // quiz tugasa stop
     if (this.currentIndex() >= list.length - 1) {
-      console.log('Quiz finished');
+      this.isFinished.set(true);
       return;
     }
 
     this.currentIndex.update(v => v + 1);
 
-    // reset state
     this.selectedAnswer = null;
     this.isLocked = false;
+
+    this.startTimer();
   }
 
-  // ======================
-  // RESET (optional)
-  // ======================
-  resetQuiz() {
-    this.currentIndex.set(0);
-    this.selectedAnswer = null;
-    this.isLocked = false;
-    this.getRandomQuestion(this.allTest);
-  }
 }
