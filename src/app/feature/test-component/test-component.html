@@ -36,7 +36,7 @@
           [ngClass]="{
             'opacity-50 cursor-not-allowed': isLocked && selectedAnswer !== i,
 
-            'border-green-500 bg-green-50': isLocked && selectedAnswer === i && i.correct,
+            'border-green-500 bg-green-50': isLocked  && i.correct,
             'border-red-500 bg-red-50': isLocked && selectedAnswer === i && !i.correct
           }"
         >
