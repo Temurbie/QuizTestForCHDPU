@@ -87,7 +87,7 @@
   <!-- Actions -->
   <div class="flex flex-col sm:flex-row gap-3">
 
-    <button routerLink=""
+    <button routerLink="/login"
       class="flex-1 py-2.5 rounded-lg bg-blue-600 text-white font-medium
              hover:bg-blue-700 active:scale-[0.98] transition cursor-pointer">
       Kirish
@@ -95,7 +95,8 @@
 
     <button
       class="flex-1 py-2.5 rounded-lg border border-gray-300 text-gray-700 font-medium
-             hover:bg-gray-100 active:scale-[0.98] transition cursor-pointer">
+             hover:bg-gray-100 active:scale-[0.98] transition cursor-pointer"
+             [routerLink]="'/demo'">
       Sinov uchun ishlatib ko‘rish
     </button>
 

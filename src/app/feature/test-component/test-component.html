@@ -11,34 +11,39 @@
       </div>
 
       <!-- Javoblar -->
-      <div class="space-y-3">
+     @for(i of test.javob; track i.matn){
 
-        @for(i of test.javob; track i.matn){
+  <label
+    (click)="selectAnswer(i)"
+    class="flex items-start sm:items-center gap-3 p-3 border rounded-xl transition cursor-pointer"
+    [ngClass]="{
+      'opacity-50 cursor-not-allowed': isLocked && selectedAnswer !== i,
 
-          <label class="flex items-start sm:items-center gap-3 p-3 border rounded-xl cursor-pointer
-                        hover:bg-blue-50 hover:border-blue-400 active:scale-[0.99] transition">
+      'border-green-500 bg-green-50': isLocked && selectedAnswer === i && i.correct,
+      'border-red-500 bg-red-50': isLocked && selectedAnswer === i && !i.correct
+    }"
+  >
 
-            <input 
-              type="radio" 
-              name="answer"
-              class="mt-1 sm:mt-0 w-5 h-5 text-blue-600 focus:ring-blue-500"
-            />
+    <input 
+      type="radio" 
+      name="answer"
+      [disabled]="isLocked"
+      class="mt-1 sm:mt-0 w-5 h-5"
+    />
 
-            <p class="text-gray-700 text-sm sm:text-base leading-snug">
-              {{i.matn}}
-            </p>
+    <p class="text-sm sm:text-base">
+      {{i.matn}}
+    </p>
 
-          </label>
+  </label>
 
-        }
-
-      </div>
+}
 
       <!-- Tugma -->
       <div class="pt-2 sm:pt-4 flex justify-end">
         <button class="w-full sm:w-auto px-5 py-3 sm:py-2 bg-blue-600 text-white rounded-xl 
                        hover:bg-blue-700 active:scale-[0.98] transition text-sm sm:text-base"
-                       (click)="nextQuetion()">
+                       (click)="nextQuestion()">
           Keyingi
         </button>
       </div>

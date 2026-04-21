@@ -1,0 +1,60 @@
+<div class="min-h-screen bg-gray-100 flex items-center justify-center p-4">
+
+  <div class="w-full max-w-xl bg-white rounded-2xl shadow-lg p-6 space-y-6">
+
+    <!-- RESULT PAGE -->
+    @if(isFinished()){
+      <div class="text-center space-y-4">
+        <h2 class="text-2xl font-bold text-gray-800">Natija</h2>
+        <p class="text-lg text-gray-600">
+          Siz {{score()}} / {{total()}} to‘g‘ri topdingiz
+        </p>
+      </div>
+    }
+
+    <!-- QUIZ -->
+    @if(!isFinished() && currentTest(); as test){
+
+      <!-- HEADER -->
+      <div class="flex justify-between items-center text-sm text-gray-600">
+        <span>{{currentIndex() + 1}} / {{total()}}</span>
+        <span class="text-red-500 font-semibold">{{timeLeft()}}s</span>
+      </div>
+
+      <!-- SAVOL -->
+      <h3 class="text-lg font-semibold text-gray-800">
+        {{test.savol}}
+      </h3>
+
+      <!-- JAVOB -->
+      <div class="space-y-3">
+        @for(j of test.javob; track j.matn){
+
+          <div
+            (click)="selectAnswer(j)"
+            class="p-3 border rounded-xl cursor-pointer transition"
+            [ngClass]="{
+              'opacity-50': isLocked && selectedAnswer !== j,
+
+              'border-green-500 bg-green-50': isLocked && selectedAnswer === j && j.correct,
+              'border-red-500 bg-red-50': isLocked && selectedAnswer === j && !j.correct
+            }"
+          >
+            {{j.matn}}
+          </div>
+
+        }
+      </div>
+
+      <!-- BUTTON -->
+      <button
+        (click)="nextQuestion()"
+        class="w-full py-3 bg-blue-600 text-white rounded-xl mt-4">
+        Keyingi
+      </button>
+
+    }
+
+  </div>
+
+</div>
