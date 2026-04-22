@@ -6,6 +6,7 @@ interface IJavob {
 export interface ITest {
     id: number
     savol: string;
+    img?: string
     javob: IJavob[]; 
 }
 
@@ -2252,7 +2253,7 @@ export const DATATEST : ITest[] = [
 },
 {
     id: 103,
-    savol: "Katakchalar o’rnida qaysi son turishi kerak? 1/5 tonna = katak kilogram",
+    savol: "Katakchalar o’rnida qaysi son turishi kerak? ⅕ tonna = ? kilogramm",
     javob: [
         {
             matn: "20",
@@ -2271,5 +2272,1086 @@ export const DATATEST : ITest[] = [
             correct: false
         }
     ]
-}
+},
+{
+    id: 104,
+    savol: '54 m matodan 18 ta bir xil erkaklar paltosi tikildi. 72 m shunday matodan nechta palto tikish mumkin?',
+    javob: [
+      {
+        matn: '24',
+        correct: true,
+      },
+      {
+        matn: '12',
+        correct: false,
+      },
+      {
+        matn: '36',
+        correct: false,
+      },
+      {
+        matn: '18',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 105,
+    savol: 'Matematika soʻzining lugʻaviy maʼnosi nima?',
+    javob: [
+      {
+        matn: 'Grekcha “mathema” soʻzidan olingan boʻlib, “fanlarni bilish” demakdir',
+        correct: true,
+      },
+      {
+        matn: 'Grekcha “mathema” soʻzidan olingan boʻlib, “qiziqish” demakdir',
+        correct: false,
+      },
+      {
+        matn: 'Grekcha “mathema” soʻzidan olingan boʻlib, “tushunish” demakdir',
+        correct: false,
+      },
+      {
+        matn: 'Lotincha “mathem” soʻzidan olingan boʻlib, “fikrlash” demakdir',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 106,
+    savol: 'Katakchalar o’rnida qaysi son turishi kerak? 1/3 sutka = ? soat',
+    javob: [
+      {
+        matn: '12',
+        correct: false,
+      },
+      {
+        matn: '8',
+        correct: true,
+      },
+      {
+        matn: '3',
+        correct: false,
+      },
+      {
+        matn: '24',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 107,
+    savol: 'Katakchalar o’rnida qaysi son turishi kerak? 7/10 minut = ? sekund',
+    javob: [
+      {
+        matn: '42',
+        correct: true,
+      },
+      {
+        matn: '17',
+        correct: false,
+      },
+      {
+        matn: '7',
+        correct: false,
+      },
+      {
+        matn: '10',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 108,
+    savol: 'Qaralayotgan sonlar, arifmetik misollar, masalarning o’xshash va farqli alomatlarini ajratish nima deyiladi?',
+    javob: [
+      {
+        matn: 'Analiz metodi',
+        correct: false,
+      },
+      {
+        matn: 'Sintez metodi',
+        correct: false,
+      },
+      {
+        matn: 'Taqqoslash usuli',
+        correct: true,
+      },
+      {
+        matn: 'Analitik usul',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 109,
+    savol: 'Matematika fanidan sinfdan tashqari ishlarda matematik o’yinlar orqali o’qituvchi qanday natijaga erishadi?',
+    javob: [
+      {
+        matn: 'o’quvchilarning mantiqiy fikrlashiga',
+        correct: true,
+      },
+      {
+        matn: 'misollarni yechishga harakat qilishga',
+        correct: false,
+      },
+      {
+        matn: 'o’quvchilar matematikadan yangi bilimlar olishga',
+        correct: false,
+      },
+      {
+        matn: 'ulgurmagan masalalarni yechishga',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 110,
+    savol: 'Umumiy bilimlar asosida yangi xususiy bilimlarni olishdan iborat usul?',
+    javob: [
+      {
+        matn: 'Deduksiya',
+        correct: true,
+      },
+      {
+        matn: 'Induksiya',
+        correct: false,
+      },
+      {
+        matn: 'Analogiya',
+        correct: false,
+      },
+      {
+        matn: 'Sintez metodi',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 111,
+    savol: '8 - x > 5 tengsizlikni qanoatlantiruvchi nechta natural son mavjud?',
+    javob: [
+      {
+        matn: '3 ta',
+        correct: false,
+      },
+      {
+        matn: '2 ta',
+        correct: true,
+      },
+      {
+        matn: '4 ta',
+        correct: false,
+      },
+      {
+        matn: 'cheksiz ko’p',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 112,
+    savol: 'Matematika o‘qitish metodikasi eng avvalo qaysi fan bilan uzviy bog‘liq?',
+    javob: [
+      {
+        matn: 'Matematika',
+        correct: true,
+      },
+      {
+        matn: 'Psixologiya',
+        correct: false,
+      },
+      {
+        matn: 'Pedagogika',
+        correct: false,
+      },
+      {
+        matn: 'Hammasi to‘g‘ri',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 113,
+    savol: 'Kub yasash uchun 480 dm sim ishlatilgan bo‘lsa, kubning qirrasini toping.',
+    javob: [
+      {
+        matn: '120 dm',
+        correct: false,
+      },
+      {
+        matn: '80 dm',
+        correct: false,
+      },
+      {
+        matn: '60 dm',
+        correct: false,
+      },
+      {
+        matn: '40 dm',
+        correct: true,
+      }
+    ]
+  },
+  {
+    id: 114,
+    savol: 'Hisoblang $$8\frac{3}{7} + 3\frac{5}{7}$$',
+    javob: [
+      {
+        matn: '$$12\frac{1}{7}',
+        correct: true,
+      },
+      {
+        matn: '$$12\frac{8}{7}',
+        correct: false,
+      },
+      {
+        matn: '$$11\frac{1}{7}',
+        correct: false,
+      },
+      {
+        matn: '$$12\frac{8}{7}',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 115,
+    savol: 'Ko‘paytirish va bo‘lish jadvali qaysi sinfda o‘rgatiladi?',
+    javob: [
+      {
+        matn: '1-sinfda',
+        correct: false,
+      },
+      {
+        matn: '2-sinfda',
+        correct: true,
+      },
+      {
+        matn: '3-sinfda',
+        correct: false,
+      },
+      {
+        matn: '4-sinfda',
+        correct: false,
+      }
+    ]
+  },
+    {
+    id: 116,
+    savol: 'Paralelopiopedning hajmini toping',
+    img: 'kvadrat.png',
+    javob: [
+      {
+        matn: '135 sm3',
+        correct: true,
+      },
+      {
+        matn: '135 dm3',
+        correct: false,
+      },
+      {
+        matn: '170 sm3',
+        correct: false,
+      },
+      {
+        matn: '170 dm3',
+        correct: false,
+      }
+    ]
+  },
+    {
+    id: 117,
+    savol: 'Matematika metodikasi haqidagi tushuncha birinchi bo‘lib kimning qaysi asarida bayon qilingan?',
+    javob: [
+      {
+        matn: 'G. Pestalosi “Sonni ko‘rgazmali o‘rganish”',
+        correct: true,
+      },
+      {
+        matn: 'Al-Xorazmiy “Al jabr va al-muqobila”',
+        correct: false,
+      },
+      {
+        matn: 'Abu Rayhon Beruniy “Hindiston”',
+        correct: false,
+      },
+      {
+        matn: 'Abu Ali Ibn Sino “Tib qonunlari”',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 118,
+    savol: '....... bilishning shunday yo‘li-ki, bunda o‘quvchining birlikdan umumiylikka, xususiy xulosadan umumiy xulosaga olib boradi. Qaysi metod ta’rifi?',
+    javob: [
+      {
+        matn: 'Deduksiya',
+        correct: false,
+      },
+      {
+        matn: 'Induksiya',
+        correct: true,
+      },
+      {
+        matn: 'Analogiya',
+        correct: false,
+      },
+      {
+        matn: 'Sintez metodi',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 119,
+    savol: 'Qisqa shart tuzishdan maqsad?',
+    javob: [
+      {
+        matn: 'masala yechimini topish tezlashadi',
+        correct: false,
+      },
+      {
+        matn: 'vaqt kam sarflanadi',
+        correct: false,
+      },
+      {
+        matn: 'qisqa yozuv shart emas',
+        correct: false,
+      },
+      {
+        matn: 'o‘quvchi masalani aniq mohiyatini tushunadi',
+        correct: true,
+      }
+    ]
+  },
+  {
+    id: 120,
+    savol: '3 mm 1 cm ning qanday qismini tashkil qiladi?',
+    javob: [
+      {
+        matn: '3 dan 1 qismi',
+        correct: false,
+      },
+      {
+        matn: '10 dan 3 qismi',
+        correct: true,
+      },
+      {
+        matn: '10 dan 1 qismi',
+        correct: false,
+      },
+      {
+        matn: '3 dan bir qismi',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 121,
+    savol: 'Boshlang‘ich sinflarda matematika darsi haftasiga necha soatni tashkil etadi?',
+    javob: [
+      {
+        matn: '2 soat',
+        correct: false,
+      },
+      {
+        matn: '5 soat',
+        correct: true,
+      },
+      {
+        matn: '4 soat',
+        correct: false,
+      },
+      {
+        matn: '3 soat',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 122,
+    savol: 'Noma’lum sonni topishga yo‘naltirilgan ifoda?',
+    javob: [
+      {
+        matn: 'Sonli ifoda',
+        correct: false,
+      },
+      {
+        matn: 'Tenglama',
+        correct: true,
+      },
+      {
+        matn: 'Harfiy ifoda',
+        correct: false,
+      },
+      {
+        matn: 'Misol',
+        correct: false,
+      }
+    ]
+  },
+   {
+    id: 123,
+    savol: 'Boshlang‘ich sinflarda raqamlash metodikasi nimani nazarda tutadi?',
+    javob: [
+      {
+        matn: 'doira, kvadrat, uchburchakni bir-biridan farq qila bilishlari va nomini ayta olishni',
+        correct: false,
+      },
+      {
+        matn: 'natural sonlar va nol haqidagi ma’lumotlarni o‘nlik, yuzlik, minglik, ko‘p xonali sonlar konsentrlari bo‘yicha kiritishni',
+        correct: false,
+      },
+      {
+        matn: 'Sonlarni taqqoslashni',
+        correct: false,
+      },
+      {
+        matn: 'miqdorlar yordamida narsalarni o‘zaro taqqoslashni',
+        correct: true,
+      }
+    ]
+  },
+  {
+    id: 124,
+    savol: '10 ichida raqamlashni bilish natijasida o‘quvchilar nimalarga erishadilar?',
+    javob: [
+      {
+        matn: '1 dan 10 gacha sonlar ketma-ketligini to‘la o‘zlashtirish',
+        correct: false,
+      },
+      {
+        matn: 'barchasi to‘g‘ri',
+        correct: true,
+      },
+      {
+        matn: 'narsalarni sanashni va sanash tartibi ko‘rsatilganda har bir narsaning tartib raqamini aytib bera olishi',
+        correct: false,
+      },
+      {
+        matn: 'sonlarning 1 dan 10 gacha har bir son qanday hosil bo‘lishini',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 125,
+    savol: '100 ichida sonlarni raqamlashni o‘rganishda o‘qituvchining vazifasi nimalardan iborat?',
+    javob: [
+      {
+        matn: 'narsalarni bittalab, o‘ntalab va yuztalab guruhlarga birlashtirib yozish',
+        correct: false,
+      },
+      {
+        matn: 'sonlarni yuzliklardan, o‘nliklardan va birliklardan hosil qila olish',
+        correct: false,
+      },
+      {
+        matn: '100 ichida sonlarni o‘qish va yozishni hamda ularning natural sonlar qatorida kelishini',
+        correct: false,
+      },
+      {
+        matn: 'barchasi to‘g‘ri',
+        correct: true,
+      }
+    ]
+  },
+  {
+    id: 126,
+    savol: 'Matematikada sonlarning o‘qilishi, yozilishi va ular ustida bajariladigan amallar tiliga nima deyiladi?',
+    javob: [
+      {
+        matn: 'sanoq sistemalari',
+        correct: true,
+      },
+      {
+        matn: 'natural son',
+        correct: false,
+      },
+      {
+        matn: 'miqdor',
+        correct: false,
+      },
+      {
+        matn: 'son',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 127,
+    savol: 'Do‘konga 190 kg don keltirildi. Bulardan 43 kg no‘xat, loviya esa no‘xatdan 13 kg kam, qolgani guruch. Do‘konga qancha guruch keltirilgan?',
+    javob: [
+      {
+        matn: '36',
+        correct: false,
+      },
+      {
+        matn: '117',
+        correct: true,
+      },
+      {
+        matn: '34',
+        correct: false,
+      },
+      {
+        matn: '77',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 128,
+    savol: 'Ikki bandargoh orasidagi masofa 84 km. Kema 28 km/soat tezlik bilan suzganda bu masofani necha soatda bosib o‘tadi?',
+    javob: [
+      {
+        matn: '5',
+        correct: false,
+      },
+      {
+        matn: '2',
+        correct: false,
+      },
+      {
+        matn: '3',
+        correct: true,
+      },
+      {
+        matn: '4',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 129,
+    savol: 'Katta sonlarni o‘qish va esda saqlashni qulaylashtirish uchun ularning raqamlari nimalarga ajratiladi?',
+    javob: [
+      {
+        matn: 'Xona birliklariga',
+        correct: false,
+      },
+      {
+        matn: 'Turga',
+        correct: false,
+      },
+      {
+        matn: 'Raqamga',
+        correct: false,
+      },
+      {
+        matn: 'Sinfga',
+        correct: true,
+      }
+    ]
+  },
+  {
+    id: 130,
+    savol: 'Kvadratning tomoni 3 marta orttirilsa, yuzi necha marta ortadi?',
+    javob: [
+      {
+        matn: '3 marta',
+        correct: false,
+      },
+      {
+        matn: '6 marta',
+        correct: false,
+      },
+      {
+        matn: '9 marta',
+        correct: true,
+      },
+      {
+        matn: 'o‘zgarmaydi',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 131,
+    savol: 'O‘quvchilar tafakkurini charxlashga yo‘naltirilgan masala turi?',
+    javob: [
+      {
+        matn: 'Geometrik masala',
+        correct: false,
+      },
+      {
+        matn: 'Mantiqiy masala',
+        correct: true,
+      },
+      {
+        matn: 'Matnli masala',
+        correct: false,
+      },
+      {
+        matn: 'Arifmetik masala',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 132,
+    savol: 'To‘g‘ri to‘rtburchakning perimetri 24 cm ga teng. Uning bo‘yi 5 cm bo‘lsa, eni necha santimetrga teng?',
+    javob: [
+      {
+        matn: '4 cm',
+        correct: false,
+      },
+      {
+        matn: '6 cm',
+        correct: false,
+      },
+      {
+        matn: '7 cm',
+        correct: true,
+      },
+      {
+        matn: '8 cm',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 133,
+    savol: '3,5 + 6,8 yig‘indini hisoblang.',
+    javob: [
+      {
+        matn: '10,13',
+        correct: false,
+      },
+      {
+        matn: '9,13',
+        correct: false,
+      },
+      {
+        matn: '10,3',
+        correct: true,
+      },
+      {
+        matn: '9,3',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 134,
+    savol: 'Tomonining uzunligi 16 m bo‘lgan kvadrat shaklidagi maydonning atrofini bir marta aylanib chiqish uchun necha metr sim kerak bo‘ladi?',
+    javob: [
+      {
+        matn: '24 m',
+        correct: false,
+      },
+      {
+        matn: '32 m',
+        correct: false,
+      },
+      {
+        matn: '64 m',
+        correct: true,
+      },
+      {
+        matn: '256 m',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 135,
+    savol: '7,2 - 4,5 ayirmani hisoblang.',
+    javob: [
+      {
+        matn: '3,3',
+        correct: false,
+      },
+      {
+        matn: '3,7',
+        correct: false,
+      },
+      {
+        matn: '2,3',
+        correct: false,
+      },
+      {
+        matn: '2,7',
+        correct: true,
+      }
+    ]
+  },
+  {
+    id: 136,
+    savol: '278 grammni o‘nli kasr ko‘rinishida ifodalang.',
+    javob: [
+      {
+        matn: '0.278 kg',
+        correct: true,
+      },
+      {
+        matn: '2.78 kg',
+        correct: false,
+      },
+      {
+        matn: '0.278 g',
+        correct: false,
+      },
+      {
+        matn: '27.8 kg',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 137,
+    savol: 'Tengsizliklar turlarini ko‘rsating?',
+    javob: [
+      {
+        matn: 'sonli va o‘zgaruvchili',
+        correct: true,
+      },
+      {
+        matn: 'Sonli',
+        correct: false,
+      },
+      {
+        matn: 'o‘zgaruvchili',
+        correct: false,
+      },
+      {
+        matn: 'o‘zgarmas',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 138,
+    savol: 'Sonlar va ular ustidagi amallarni belgilaydigan matematik simvollar (belgilar)ning ma’lum qoidalar bo‘yicha tuzilgan ketma-ketligi nima deb ataladi?',
+    javob: [
+      {
+        matn: 'Tenglama',
+        correct: false,
+      },
+      {
+        matn: 'matematik ifoda',
+        correct: true,
+      },
+      {
+        matn: 'misol',
+        correct: false,
+      },
+      {
+        matn: 'Tengsizlik',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 139,
+    savol: '60 kilogrammni sentnerda ifodalang.',
+    javob: [
+      {
+        matn: '6 q',
+        correct: false,
+      },
+      {
+        matn: '0,06 q',
+        correct: false,
+      },
+      {
+        matn: '0,6 q',
+        correct: true,
+      },
+      {
+        matn: '600 q',
+        correct: false,
+      }
+    ]
+  },
+   {
+    id: 140,
+    savol: '',
+    img: 'kasr.png  ',
+    javob: [
+      {
+        matn: '6 q',
+        correct: false,
+      },
+      {
+        matn: '0,06 q',
+        correct: false,
+      },
+      {
+        matn: '0,6 q',
+        correct: true,
+      },
+      {
+        matn: '600 q',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 141,
+    savol: 'Uchburchakning har bir burchagi qirqilsa, qanday shakl hosil bo‘ladi?',
+    javob: [
+      {
+        matn: 'aylana',
+        correct: false,
+      },
+      {
+        matn: 'uchburchak',
+        correct: false,
+      },
+      {
+        matn: 'romb',
+        correct: false,
+      },
+      {
+        matn: 'oltiburchak',
+        correct: true,
+      }
+    ]
+  },
+  {
+    id: 142,
+    savol: 'Bog‘ga 170 tup oq olma, 2 marta ortiq qizil olma, oq va qizil olmalar birgalikda nechta bo‘lsa, ulardan 190 tup ortiq nok o‘tqazildi. Necha tup nok o‘tqazilgan?',
+    javob: [
+      {
+        matn: '400 tup',
+        correct: false,
+      },
+      {
+        matn: '600 tup',
+        correct: false,
+      },
+      {
+        matn: '700 tup',
+        correct: true,
+      },
+      {
+        matn: '300 tup',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 143,
+    savol: 'Natural sonlar qanday yoziladi?',
+    javob: [
+      {
+        matn: 'o‘ngdan chapga qarab',
+        correct: false,
+      },
+      {
+        matn: 'chapdan o‘ngga qarab',
+        correct: true,
+      },
+      {
+        matn: 'yuqoridan pastga qarab',
+        correct: false,
+      },
+      {
+        matn: 'pastdan yuqoriga qarab',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 144,
+    savol: 'Algoritm nima?',
+    javob: [
+      {
+        matn: 'Son',
+        correct: false,
+      },
+      {
+        matn: 'Tenglama yechish',
+        correct: false,
+      },
+      {
+        matn: 'Bajariladigan ishni tartibini belgilash',
+        correct: true,
+      },
+      {
+        matn: 'misol yechish',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 145,
+    savol: 'Sanoq sistemasida berilgan sonning qiymati sonni tasvirlovchi raqamlarning egallagan o‘rniga bog‘liq bo‘ladi. Qaysi sanoq sistemasi haqida so‘z yuritilgan?',
+    javob: [
+      {
+        matn: 'nopozitsion sanoq sistemasi',
+        correct: false,
+      },
+      {
+        matn: 'Pozitsion sanoq sistemasi',
+        correct: true,
+      },
+      {
+        matn: 'sonlar',
+        correct: false,
+      },
+      {
+        matn: 'hammasi to‘g‘ri',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 146,
+    savol: 'Qaysi mutafakkir sonlarni o‘nlik sanoq sistemasida xona birliklariga ajratib yozilishi mumkinligini ko‘rsatgan? To‘rt amalni bajarishda bunday yozuvdan foydalanishning afzalliklarini tushuntirib bergan.',
+    javob: [
+      {
+        matn: 'Ibn Sino',
+        correct: false,
+      },
+      {
+        matn: 'Farobiy',
+        correct: false,
+      },
+      {
+        matn: 'Al Xorazmiy',
+        correct: true,
+      },
+      {
+        matn: 'Beruniy',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 147,
+    savol: 'Shunday xulosaki, bunda predmetlar ba’zi belgilarining o‘xshashligi bo‘yicha bu predmetlar boshqa belgilari bo‘yicha ham o‘xshash, degan taxminiy xulosa chiqariladi. Bu - ?',
+    javob: [
+      {
+        matn: 'Deduksiya',
+        correct: false,
+      },
+      {
+        matn: 'Analogiya',
+        correct: true,
+      },
+      {
+        matn: 'Induksiya',
+        correct: false,
+      },
+      {
+        matn: 'Fikr',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 148,
+    savol: '100 ichida raqamlash nechta bosqichda o‘rgatiladi?',
+    javob: [
+      {
+        matn: '1',
+        correct: false,
+      },
+      {
+        matn: '2',
+        correct: true,
+      },
+      {
+        matn: '3',
+        correct: false,
+      },
+      {
+        matn: '4',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 149,
+    savol: 'Uzunlik o‘lchov birliklarini toping',
+    javob: [
+      {
+        matn: 'ga, ar, cm',
+        correct: false,
+      },
+      {
+        matn: 'cm, dm, m',
+        correct: true,
+      },
+      {
+        matn: 'm, dm, l',
+        correct: false,
+      },
+      {
+        matn: 'cm, kg, m',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 150,
+    savol: 'Yuza o‘lchov birliklarini toping',
+    javob: [
+      {
+        matn: 'ga, ar',
+        correct: true,
+      },
+      {
+        matn: 'cm, dm, m',
+        correct: false,
+      },
+      {
+        matn: 'm, dm, l',
+        correct: false,
+      },
+      {
+        matn: 'cm, kg, m',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 151,
+    savol: 'Matematika o‘qitish o‘quvchilarni sabotlikka, tirishqoqlikka, puxtalikka, o‘z fikri va xulosalarini nazorat qila olishga erishish kerak” bu o‘qitishning qaysi maqsadiga tegishli?',
+    javob: [
+      {
+        matn: 'Ta’limiy maqsad',
+        correct: false,
+      },
+      {
+        matn: 'Tarbiyaviy maqsad',
+        correct: true,
+      },
+      {
+        matn: 'Amaliy maqsad',
+        correct: false,
+      },
+      {
+        matn: 'Rivojlantiruvchi maqsad',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 152,
+    savol: 'Ilmiy-tadqiqot metodi bu-',
+    javob: [
+      {
+        matn: 'o‘quv tarbiya ishining u yoki bu sohasidagi ishning qanday borayotganini o‘rganish uchun foydalaniladi.',
+        correct: false,
+      },
+      {
+        matn: 'maxsus tashkil qilingan tadqiqotchi tomonidan nazorat qilib turiladigan va tizimli ravishda o‘zgartirib turiladigan sharoitda o‘tkaziladi.',
+        correct: false,
+      },
+      {
+        matn: 'bu qonuniy bog‘lanishlarini, munosabatlarni, aloqalarni o‘rnatish va ilmiy nazariyalarni tuzish maqsadida ilmiy axborotlarni olish usullaridir.',
+        correct: true,
+      },
+      {
+        matn: 'Hammasi to‘g‘ri',
+        correct: false,
+      }
+    ]
+  }
+  
 ]
