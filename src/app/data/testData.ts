@@ -1324,5 +1324,952 @@ export const DATATEST : ITest[] = [
         correct: false,
       }
     ]
-  }
+  },
+   {
+    id: 61,
+    savol: 'Boshlangʻich taʼlimni integratsion baholash xususiyati nima?',
+    javob: [
+      {
+        matn: 'bilimlarni tizimli oʻzlashtirish',
+        correct: false,
+      },
+      {
+        matn: 'har bir fanni kutilgan darajada oʻzlashtirish',
+        correct: false,
+      },
+      {
+        matn: 'oʻzlashtirishni amaliyotda qoʻllay olish',
+        correct: false,
+      },
+      {
+        matn: 'boshlangʻich taʼlimni tashkil etish sharoitlari, asoslari, samaradorligi va pedagoglar bilan taʼminlanganlik darajasi',
+        correct: true,
+      }
+    ]
+  },
+  {
+    id: 62,
+    savol: 'Bilim nima?',
+    javob: [
+      {
+        matn: 'eng toʻgʻri, tajribadan oʻtgan va koʻpchilik tomonidan eʼtirof etilgan tushunchalar, gʻoyalar hamda fikrlar majmui',
+        correct: true,
+      },
+      {
+        matn: 'muayyan bilimlar, axloqiy koʻnikmalar va xatti-harakat qobiliyatlariga ega boʻlish',
+        correct: false,
+      },
+      {
+        matn: 'boshlangʻich sinf oʻqituvchilarining oʻquv-biluv tushunchasi',
+        correct: false,
+      },
+      {
+        matn: 'lotincha soʻz boʻlib, aqliy layoqat maʼnosini anglatadi',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 63,
+    savol: 'Boshlangʻich taʼlimni berishning asosiy shakli nima?',
+    javob: [
+      {
+        matn: 'maktab',
+        correct: false,
+      },
+      {
+        matn: 'dars',
+        correct: true,
+      },
+      {
+        matn: 'tarbiya',
+        correct: false,
+      },
+      {
+        matn: 'oʻqitish jarayoni',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 64,
+    savol: 'Innovatsion texnologiya nima?',
+    javob: [
+      {
+        matn: 'pedagogik taraqqiyotni taʼminlashga qaratilgan yangi tashkiliy faollik vositalari, usullari va metodlari',
+        correct: true,
+      },
+      {
+        matn: 'yangicha oʻqitish tizimi',
+        correct: false,
+      },
+      {
+        matn: 'yangi oʻquv jarayoni prognozi',
+        correct: false,
+      },
+      {
+        matn: 'yangicha oʻquv loyihasi',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 65,
+    savol: 'Innovatsion oʻqitish nima?',
+    javob: [
+      {
+        matn: 'pedagogik taraqqiyot vositalari',
+        correct: false,
+      },
+      {
+        matn: 'yangicha oʻqitish tizimi hamda oʻquvchi va talabalarni yangi texnologiyalar asosida oʻqitish jarayoni',
+        correct: true,
+      },
+      {
+        matn: 'yangi oʻquv jarayoni prognozi',
+        correct: false,
+      },
+      {
+        matn: 'oʻquv loyihasi',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 66,
+    savol: 'Erkin boshlangʻich taʼlim innovatsion maktabi qaysi davlatda tashkil etilgan?',
+    javob: [
+      {
+        matn: 'Finlandiya',
+        correct: false,
+      },
+      {
+        matn: 'Germaniya',
+        correct: true,
+      },
+      {
+        matn: 'Xitoy',
+        correct: false,
+      },
+      {
+        matn: 'Fransiya',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 67,
+    savol: 'Mehnat boshlangʻich taʼlim maktabi qaysi davlatlarda tashkil etilgan?',
+    javob: [
+      {
+        matn: 'Germaniya, Rossiya, Finlandiya',
+        correct: false,
+      },
+      {
+        matn: 'Avstriya, Germaniya, Xitoy',
+        correct: false,
+      },
+      {
+        matn: 'Avstriya, Shvetsariya, Rossiya',
+        correct: true,
+      },
+      {
+        matn: 'Buyuk Britaniya, Germaniya, Amerika',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 68,
+    savol: 'Ochiq boshlangʻich taʼlim maktabi qaysi davlatda tashkil etilgan?',
+    javob: [
+      {
+        matn: 'Shvetsariya',
+        correct: false,
+      },
+      {
+        matn: 'Germaniya',
+        correct: false,
+      },
+      {
+        matn: 'Yaponiya',
+        correct: false,
+      },
+      {
+        matn: 'Buyuk Britaniya',
+        correct: true,
+      }
+    ]
+  },
+  {
+    id: 69,
+    savol: 'Yillik yangi boshlangʻich taʼlim maktabi qaysi davlatda tashkil etilgan?',
+    javob: [
+      {
+        matn: 'AQSh',
+        correct: true,
+      },
+      {
+        matn: 'Shvetsariya',
+        correct: false,
+      },
+      {
+        matn: 'Finlandiya',
+        correct: false,
+      },
+      {
+        matn: 'Xitoy',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 70,
+    savol: 'Oʻzbekiston Respublikasida nechta Oliy taʼlim muassasalari ECTS kredit-modul tizimiga oʻtgan?',
+    javob: [
+      {
+        matn: '30 ta',
+        correct: false,
+      },
+      {
+        matn: '33 ta',
+        correct: true,
+      },
+      {
+        matn: '36 ta',
+        correct: false,
+      },
+      {
+        matn: '38 ta',
+        correct: false,
+      }
+    ]
+  },
+   {
+    id: 71,
+    savol: 'Masofaviy taʼlim texnologiyasi qanday imkoniyatlarga ega?',
+    javob: [
+      {
+        matn: 'bilish faoliyatini mustaqil tashkil etish sharoitlarini beradi',
+        correct: false,
+      },
+      {
+        matn: 'masofaviy taʼlim oʻqish va oʻqitish jarayoniga ijobiy yondashuvni taʼminlaydi',
+        correct: false,
+      },
+      {
+        matn: 'pedagogik jarayonning maqsadi sifatida taʼlim oluvchiga aniq yoʻnalish beradi',
+        correct: false,
+      },
+      {
+        matn: 'barcha javoblar toʻgʻri',
+        correct: true,
+      }
+    ]
+  },
+  {
+    id: 72,
+    savol: 'Masofaviy taʼlimning oʻquv materiallarini tayyorlash nechta blokka boʻlinadi?',
+    javob: [
+      {
+        matn: '3 ta',
+        correct: false,
+      },
+      {
+        matn: '6 ta',
+        correct: false,
+      },
+      {
+        matn: '5 ta',
+        correct: true,
+      },
+      {
+        matn: '4 ta',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 73,
+    savol: 'Masofaviy taʼlimning oʻquv materiallarini tayyorlashning kommunikativ bloki nima?',
+    javob: [
+      {
+        matn: 'oʻquv materiallarini taʼlim oluvchilarga yoʻnaltirilgan tarzda tayyorlovchi manba',
+        correct: true,
+      },
+      {
+        matn: 'taʼlim oluvchilarning oʻzlashtirishini nazorat qilib boruvchi manba',
+        correct: false,
+      },
+      {
+        matn: 'taʼlim oluvchi va taʼlim beruvchilarning muloqotini taʼminlovchi manba',
+        correct: false,
+      },
+      {
+        matn: 'oʻquv materiallarini nazariy, didaktik va amaliy tarzda tayyorlash',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 74,
+    savol: 'Masofaviy taʼlimda nazoratni amalga oshiruvchi blok nima?',
+    javob: [
+      {
+        matn: 'oʻquv materiallarini taʼlim oluvchilarga yoʻnaltirish',
+        correct: false,
+      },
+      {
+        matn: 'taʼlim oluvchilarning oʻzlashtirishini nazorat qilib boruvchi manba',
+        correct: true,
+      },
+      {
+        matn: 'muloqotni taʼminlash',
+        correct: false,
+      },
+      {
+        matn: 'nazariy va amaliy materiallarni tayyorlash',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 75,
+    savol: 'Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Taʼlim sifatini nazorat qilish inspeksiyasi xususiy maktablarni har necha yilda tekshiradi?',
+    javob: [
+      {
+        matn: '5 yil',
+        correct: false,
+      },
+      {
+        matn: '2 yil',
+        correct: false,
+      },
+      {
+        matn: '3 yil',
+        correct: true,
+      },
+      {
+        matn: '4 yil',
+        correct: false,
+      },
+      
+    ]
+  },
+   {
+    id: 76,
+    savol: 'Muayyan holat yoki darajani baholash — bu ...?',
+    javob: [
+      {
+        matn: 'Indikator',
+        correct: true,
+      },
+      {
+        matn: 'Oʻquv reja',
+        correct: false,
+      },
+      {
+        matn: 'Innovatsiya',
+        correct: false,
+      },
+      {
+        matn: 'Koʻnikma',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 77,
+    savol: 'Boshlangʻich taʼlimni integratsion baholash nechta xususiyatga ega boʻladi?',
+    javob: [
+      {
+        matn: '4 ta',
+        correct: true,
+      },
+      {
+        matn: '5 ta',
+        correct: false,
+      },
+      {
+        matn: '3 ta',
+        correct: false,
+      },
+      {
+        matn: '7 ta',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 78,
+    savol: 'Germaniyada boshlangʻich taʼlimni tashkil etishda qaysi fanlarning ustuvorligiga duch kelamiz?',
+    javob: [
+      {
+        matn: 'Psixologiyaning',
+        correct: false,
+      },
+      {
+        matn: 'Gumanitar fanlarning',
+        correct: true,
+      },
+      {
+        matn: 'Maktabgacha taʼlimning',
+        correct: false,
+      },
+      {
+        matn: 'Tarbiya fanining',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 79,
+    savol: 'Braziliya boshlangʻich taʼlim gʻoyasiga qaysi davlat modeli taʼsir koʻrsatgan?',
+    javob: [
+      {
+        matn: 'Fransiya',
+        correct: false,
+      },
+      {
+        matn: 'Finlandiya',
+        correct: false,
+      },
+      {
+        matn: 'Ispaniya',
+        correct: true,
+      },
+      {
+        matn: 'Amerika',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 80,
+    savol: 'Kanada boshlangʻich taʼlim tizimida qaysi davlat tizimi aks etgan?',
+    javob: [
+      {
+        matn: 'Ispaniya',
+        correct: false,
+      },
+      {
+        matn: 'AQSh',
+        correct: true,
+      },
+      {
+        matn: 'Finlandiya',
+        correct: false,
+      },
+      {
+        matn: 'Fransiya',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 81,
+    savol: 'Osiyo qitʼasidagi rivojlangan mamlakatlar boshlangʻich taʼlimida qaysi davlat taʼsiri kuchli?',
+    javob: [
+      {
+        matn: 'Amerika',
+        correct: false,
+      },
+      {
+        matn: 'Kanada',
+        correct: false,
+      },
+      {
+        matn: 'Ispaniya',
+        correct: false,
+      },
+      {
+        matn: 'Rossiya',
+        correct: true,
+      }
+    ]
+  },
+  {
+    id: 82,
+    savol: 'Hozirgi zamon boshlangʻich taʼlimining sifat va samaradorligini baholashda qaysi darslarning ahamiyati katta?',
+    javob: [
+      {
+        matn: 'Mahorat darsining',
+        correct: true,
+      },
+      {
+        matn: 'Ochiq darslarning',
+        correct: false,
+      },
+      {
+        matn: 'toʻgʻri javob yoʻq',
+        correct: false,
+      },
+      {
+        matn: 'Anʼanaviy darslarning',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 83,
+    savol: 'Tanishuv darajasi – bu ...?',
+    javob: [
+      {
+        matn: 'Oʻquvchilarning yangi mavzuni qabul qilishi',
+        correct: false,
+      },
+      {
+        matn: 'Oʻquvchilarning yangi oʻqituvchini qabul qilishi',
+        correct: false,
+      },
+      {
+        matn: 'Oʻquvchilarning yangi mavzuni va yangi oʻqituvchini qabul qilishi',
+        correct: true,
+      },
+      {
+        matn: 'Yangi bilimga ega boʻlish',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 84,
+    savol: 'Oʻquvchilarning mavzuni xotirasida yaxshi saqlab qolishi – bu ...?',
+    javob: [
+      {
+        matn: 'Tanishuv darajasi',
+        correct: false,
+      },
+      {
+        matn: 'Evristik daraja',
+        correct: false,
+      },
+      {
+        matn: 'toʻgʻri javob yoʻq',
+        correct: false,
+      },
+      {
+        matn: 'Algoritmik daraja',
+        correct: true,
+      }
+    ]
+  },
+  {
+    id: 85,
+    savol: 'Oʻquvchilarning mavzuni toʻliq oʻzlashtirishi va yangi bilimga ega boʻlishi – bu ...?',
+    javob: [
+      {
+        matn: 'Algoritmik daraja',
+        correct: false,
+      },
+      {
+        matn: 'Evristik daraja',
+        correct: true,
+      },
+      {
+        matn: 'Tanishuv darajasi',
+        correct: false,
+      },
+      {
+        matn: 'toʻgʻri javob yoʻq',
+        correct: false,
+      }
+    ]
+  },
+   {
+    id: 86,
+    savol: 'Taʼlim elementlarini oʻzlashtirish va boshqa yutuqlarga erishish natijasida taqdim etiladigan kredit birliklarini toʻplash – bu ...?',
+    javob: [
+      {
+        matn: 'kredit',
+        correct: false,
+      },
+      {
+        matn: 'kreditlarni berish',
+        correct: false,
+      },
+      {
+        matn: 'kredit toʻplash',
+        correct: true,
+      },
+      {
+        matn: 'kreditlarni koʻchirish',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 87,
+    savol: 'Toshkent viloyatidagi umumiy oʻrta taʼlim maktablarida nechta “Maktab-laboratoriya” tajriba-sinov maydonchalari tashkil etilgan?',
+    javob: [
+      {
+        matn: '30 ta',
+        correct: false,
+      },
+      {
+        matn: '25 ta',
+        correct: true,
+      },
+      {
+        matn: '20 ta',
+        correct: false,
+      },
+      {
+        matn: '10 ta',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 88,
+    savol: 'Boshlangʻich taʼlimda “Maktab-laboratoriya” usulini joriy etishda nechta tashkiliy ish amalga oshiriladi?',
+    javob: [
+      {
+        matn: '3 ta',
+        correct: true,
+      },
+      {
+        matn: '4 ta',
+        correct: false,
+      },
+      {
+        matn: '8 ta',
+        correct: false,
+      },
+      {
+        matn: '2 ta',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 89,
+    savol: 'Klaster tushunchasi qaysi mamlakatlarda ishlab chiqarish aloqalarini yoʻlga qoʻyish mazmunida qoʻllaniladi?',
+    javob: [
+      {
+        matn: 'Gʻarb',
+        correct: true,
+      },
+      {
+        matn: 'Sharq',
+        correct: false,
+      },
+      {
+        matn: 'Osiyo',
+        correct: false,
+      },
+      {
+        matn: 'toʻgʻri javob yoʻq',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 90,
+    savol: 'Oʻqitishning klaster usuli nechta tamoyilga asoslanadi?',
+    javob: [
+      {
+        matn: '2 ta',
+        correct: false,
+      },
+      {
+        matn: '4 ta',
+        correct: false,
+      },
+      {
+        matn: '3 ta',
+        correct: true,
+      },
+      {
+        matn: '6 ta',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 91,
+    savol: 'Boshlangʻich taʼlimni tashkil qilishning klaster usuli vazifalari nechta?',
+    javob: [
+      {
+        matn: '5 ta',
+        correct: true,
+      },
+      {
+        matn: '3 ta',
+        correct: false,
+      },
+      {
+        matn: '7 ta',
+        correct: false,
+      },
+      {
+        matn: '6 ta',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 92,
+    savol: 'Hozirgi zamon boshlangʻich taʼlimida oʻqitishning klaster usulini joriy etish uchun asosiy metodlar nechta?',
+    javob: [
+      {
+        matn: '3 ta',
+        correct: true,
+      },
+      {
+        matn: '2 ta',
+        correct: false,
+      },
+      {
+        matn: '4 ta',
+        correct: false,
+      },
+      {
+        matn: '5 ta',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 93,
+    savol: 'Boshlangʻich taʼlim mavzulari, darslari va oʻquv fanlarini ketma-ketlikda amalga oshirishga asoslanadigan metod – bu ...?',
+    javob: [
+      {
+        matn: 'Uzviylik metodi',
+        correct: true,
+      },
+      {
+        matn: 'Hamkorlik metodi',
+        correct: false,
+      },
+      {
+        matn: 'Samaradorlik metodi',
+        correct: false,
+      },
+      {
+        matn: 'toʻgʻri javob yoʻq',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 94,
+    savol: 'Boshlangʻich taʼlimni undan manfaatdorlar bilan amalga oshirishga asoslanadigan metod – bu ...?',
+    javob: [
+      {
+        matn: 'Samaradorlik metodi',
+        correct: false,
+      },
+      {
+        matn: 'Hamkorlik metodi',
+        correct: true,
+      },
+      {
+        matn: 'Uzviylik metodi',
+        correct: false,
+      },
+      {
+        matn: 'toʻgʻri javob yoʻq',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 95,
+    savol: 'Integratsion darsning auksion turi qanday tashkil etiladi?',
+    javob: [
+      {
+        matn: 'mutaxassislar ishtirokida oʻtkaziladi',
+        correct: false,
+      },
+      {
+        matn: 'kompyuter texnologiyasiga asoslanadi',
+        correct: false,
+      },
+      {
+        matn: 'auksion tarzda tashkil etiladi',
+        correct: true,
+      },
+      {
+        matn: 'koʻrgazmalilik va anʼanaviylikka asoslanadi',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 96,
+    savol: 'Integratsion dars turlarining hamkorlik dars turi qanday shaklda tashkil etiladi?',
+    javob: [
+      {
+        matn: 'integratsion darsning bu turi muayyan mavzularni mutaxassislarning ishtirokida oʻtkazishga asoslanadi',
+        correct: true,
+      },
+      {
+        matn: 'integratsion darsning bu turi koʻp hollarda kompyuter texnologiyasiga asoslanadi',
+        correct: false,
+      },
+      {
+        matn: 'integratsion darsning bu turi auktsion tarzda tashkil etiladi',
+        correct: false,
+      },
+      {
+        matn: 'integratsion darsning bu turi koʻrgazmalilik va anʼanaviylikka asoslanadi',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 97,
+    savol: 'Integratsion dars turlari nechta?',
+    javob: [
+      {
+        matn: '3 ta',
+        correct: true,
+      },
+      {
+        matn: '2 ta',
+        correct: false,
+      },
+      {
+        matn: '4 ta',
+        correct: false,
+      },
+      {
+        matn: '6 ta',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 98,
+    savol: 'Mavzularni va mashgʻulotlarni hamkorlikda, mutaxassislar ishtirokida va oʻquvchilar faolligida oʻtish jarayoni – bu ...?',
+    javob: [
+      {
+        matn: 'Auksion dars',
+        correct: false,
+      },
+      {
+        matn: 'Integratsion dars',
+        correct: true,
+      },
+      {
+        matn: 'Hamkorlik darsi',
+        correct: false,
+      },
+      {
+        matn: 'Toʻgʻri javob yoʻq',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 99,
+    savol: 'Taʼlim olish natijalariga koʻra talaba tomonidan muayyan fan boʻyicha oʻzlashtirilgan oʻquv yuklamasining oʻlchov birligi – bu ...?',
+    javob: [
+      {
+        matn: 'kredit',
+        correct: true,
+      },
+      {
+        matn: 'oʻqish yuklamasi',
+        correct: false,
+      },
+      {
+        matn: 'kredit toʻplash',
+        correct: false,
+      },
+      {
+        matn: 'Toʻgʻri javob yoʻq',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 100,
+    savol: 'Oʻzbekistonda masofaviy taʼlim texnologiyasi qaysi yildan boshlab qoʻllanilgan?',
+    javob: [
+      {
+        matn: '1978-yildan',
+        correct: false,
+      },
+      {
+        matn: '1970-yildan',
+        correct: false,
+      },
+      {
+        matn: '1980-yildan',
+        correct: true,
+      },
+      {
+        matn: '1990-yildan',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 101,
+    savol: "To’g’ri burchakli uchburchakning kichik tomonlari 3 dm, 4 dmga teng bo’lsa uchburchak yuzasini toping.",
+    javob: [
+        {
+            matn: "12 dm2",
+            correct: false
+        },
+        {
+            matn: "6 dm2",
+            correct: true
+        },
+        {
+            matn: "7 dm2",
+            correct: false
+        },
+        {
+            matn: "14 dm2",
+            correct: false
+        }
+    ]
+},
+{
+    id: 102,
+    savol: "Tenglamani ildizini toping:(1835-y):9+1709 = 1824",
+    javob: [
+        {
+            matn: "800",
+            correct: true
+        },
+        {
+            matn: "700",
+            correct: false
+        },
+        {
+            matn: "500",
+            correct: false
+        },
+        {
+            matn: "100",
+            correct: false
+        }
+    ]
+},
+{
+    id: 103,
+    savol: "Katakchalar o’rnida qaysi son turishi kerak? 1/5 tonna = katak kilogram",
+    javob: [
+        {
+            matn: "20",
+            correct: false
+        },
+        {
+            matn: "200",
+            correct: true
+        },
+        {
+            matn: "50",
+            correct: false
+        },
+        {
+            matn: "500",
+            correct: false
+        }
+    ]
+}
 ]
