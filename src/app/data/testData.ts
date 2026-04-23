@@ -4338,6 +4338,223 @@ export const DATATEST : ITest[] = [
       }
     ]
   },
+  {
+    id: 206,
+    savol: "\"Shoh G’oziy\" hikoyati Navoiyning qaysi dostonidan olingan?",
+    javob: [
+      { matn: "\"Hayratul-abror\"", correct: true },
+      { matn: "\"Farhod va Shirin\"", correct: false },
+      { matn: "\"Layli va Majnun\"", correct: false },
+      { matn: "«Sabbai Sayyor»", correct: false },
+    ],
+  },
+  {
+    id: 207,
+    savol: "\"Egri va to’g’ri” ertagida qanday ijobiy fazilat ulug’lanadi?",
+    javob: [
+      { matn: "Ezgulik", correct: false },
+      { matn: "Adolat", correct: false },
+      { matn: "Razolat", correct: false },
+      { matn: "To’g’rilik", correct: true },
+    ],
+  },
+  {
+    id: 208,
+    savol: "\"Susambil\" ertagida bo’rilar nazdida Eshon kim edi?",
+    javob: [
+      { matn: "Xo’roz", correct: false },
+      { matn: "Eshak", correct: true },
+      { matn: "Ho’kiz", correct: false },
+      { matn: "Arilar", correct: false },
+    ],
+  },
+  {
+    id: 209,
+    savol: "Shamol to’xtatish marosimida ijro etilgan qo’shiqning nomini ayting?",
+    javob: [
+      { matn: "Sust xotin", correct: false },
+      { matn: "Choy momo", correct: true },
+      { matn: "Yo, haydar", correct: false },
+      { matn: "Yo, ramazon", correct: false },
+    ],
+  },
+  {
+    id: 210,
+    savol:
+      "Sarvi gulning tagida so’ldi gul netmoq kerak? Sarvdin tobut yasab guldan kafan etmoq kerak? Satri kimning qalamiga mansub?",
+    javob: [
+      { matn: "Navoiy, X.Boyqaro", correct: true },
+      { matn: "Lutfiy, Durbek", correct: false },
+      { matn: "Atoyi, Sakkokiy", correct: false },
+      { matn: "Turdi, Maxmur", correct: false },
+    ],
+  },
+
+  {
+    id: 211,
+    savol:
+      "Go’rug’li asrandi o’g’li Hasanxonni qaysi shahardan olib kelgan?",
+    javob: [
+      { matn: "Vayangandan", correct: true },
+      { matn: "Chambildan", correct: false },
+      { matn: "Eram bog’idan", correct: false },
+      { matn: "Isfaxondan", correct: false },
+    ],
+  },
+  {
+    id: 212,
+    savol:
+      "\"Alpomish\" dostonidan olingan parcha kimning gapi: \"Maslahat bermaymiz, Boysaribeyga osilmaymiz Boybo’rining dorila\"",
+    javob: [
+      { matn: "Yortiboy", correct: true },
+      { matn: "Qultoy", correct: false },
+      { matn: "Qaldirg’och", correct: false },
+      { matn: "Qorajon", correct: false },
+    ],
+  },
+  {
+    id: 213,
+    savol:
+      "Qaysi janr inson ruhiy kechinmalarini chuqur, dardli aks ettiradi?",
+    javob: [
+      { matn: "Marsiya", correct: true },
+      { matn: "Yor-yor", correct: false },
+      { matn: "Lapar", correct: false },
+      { matn: "Kelin salom", correct: false },
+    ],
+  },
+  {
+    id: 214,
+    savol:
+      "\"Uch og’a-ini botirlar\" ertagida kim: \"uzum shinnisidan qonning hidi kelyapti, chunki podsholar odam qonidan ham qo’rqmaydilar\" degan?",
+    javob: [
+      { matn: "Kenja botir", correct: true },
+      { matn: "Ota", correct: false },
+      { matn: "Ona", correct: false },
+      { matn: "To’ng’ich botir", correct: false },
+    ],
+  },
+  {
+    id: 215,
+    savol: "Eposning asosiy janrlari?",
+    javob: [
+      {
+        matn: "hikoya, qissa, ertak, roman",
+        correct: true,
+      },
+      {
+        matn: "ertak, hikoya, afsona, drama",
+        correct: false,
+      },
+      {
+        matn: "doston, qissa, topishmoq, qit’a",
+        correct: false,
+      },
+      {
+        matn: "masnaviy, latifa, askiya, qasida",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 216,
+    savol:
+      "Dehqon mehnatiga to’g’ri baho bergan, bug’doyni yaratgan mehnatkashni ulug’lagan asarni toping?",
+    javob: [
+      { matn: "Qutadg’u-bilik", correct: true },
+      { matn: "Avesto", correct: false },
+      { matn: "Navoiy", correct: false },
+      { matn: "Hibatul-haqoyiq", correct: false },
+    ],
+  },
+  {
+    id: 217,
+    savol:
+      "G’.G’ulom nechanchi yil bolalarga bag’ishlangan she’r yozishni boshladi?",
+    javob: [
+      { matn: "1923 yildan", correct: true },
+      { matn: "1922 yildan", correct: false },
+      { matn: "1924 yildan", correct: false },
+      { matn: "1925 yildan", correct: false },
+    ],
+  },
+  {
+    id: 218,
+    savol:
+      "\"Hunarni asrabon netgumdir oxir Olib tufroqqamu ketgumdir oxir\" so’zlari qaysi qahramon nutqida bor?",
+    javob: [
+      { matn: "Farhod", correct: true },
+      { matn: "Shopur", correct: false },
+      { matn: "Bahrom", correct: false },
+      { matn: "Xusrav", correct: false },
+    ],
+  },
+  {
+    id: 219,
+    savol:
+      "«Baqqolning maymunidek Kim ko’ringanga ajuva bo’lib yurma...» («Shum bola») Shum bolaga xayrixoh bu nutqni kim aytgan?",
+    javob: [
+      { matn: "Hoji bobo", correct: true },
+      { matn: "Hindi sarrof", correct: false },
+      { matn: "Sariboy", correct: false },
+      { matn: "Omon", correct: false },
+    ],
+  },
+  {
+    id: 220,
+    savol:
+      "Xalq latifalari yo’lida hikoya yozgan o’zbek adiblari qaysi javobda keltirilgan?",
+    javob: [
+      { matn: "G’.G’ulom", correct: true },
+      { matn: "A.Qodiriy", correct: false },
+      { matn: "Cho’lpon", correct: false },
+      { matn: "A.Qahhor", correct: false },
+    ],
+  },
+  {
+    id: 221,
+    savol: "G’.G’ulom bolalar uchun yaratgan asarlari qaysi javobda keltirilgan?",
+    javob: [
+      {
+        matn: "«Bilib qo’yki seni vatan kutadi», «Bari seniki», «Shum bola»",
+        correct: true,
+      },
+      {
+        matn: "«Shum bola», «Bolalik», «Nortojining kurak tishi»",
+        correct: false,
+      },
+      {
+        matn: "«Shum bola», «Bari seniki», «O’tmishdan ertaklar»",
+        correct: false,
+      },
+      {
+        matn: "«Tirilgan murda», «Sehrli qalpoqcha», «Shum bola»",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 222,
+    savol:
+      "«Shum bola» qissasida ko’kterak bozorida pulini o’g’irlatgan «jabrdiyda» kim edi?",
+    javob: [
+      { matn: "Sulton", correct: true },
+      { matn: "Husnibiy", correct: false },
+      { matn: "Omon", correct: false },
+      { matn: "Yo’ldosh", correct: false },
+    ],
+  },
+  {
+    id: 223,
+    savol:
+      "O’z hikoyalarida xalq maqollariga eng ko’p murojaat qiluvchi adib kim?",
+    javob: [
+      { matn: "A.Qahhor", correct: true },
+      { matn: "O’.Hoshimov", correct: false },
+      { matn: "S. Ahmad", correct: false },
+      { matn: "G’.G’ulom", correct: false },
+    ],
+  },
 
   
 ]
