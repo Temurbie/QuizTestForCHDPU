@@ -4338,6 +4338,7 @@ export const DATATEST : ITest[] = [
       }
     ]
   },
+  //metematika tugadi
   {
     id: 206,
     savol: "\"Shoh G’oziy\" hikoyati Navoiyning qaysi dostonidan olingan?",
@@ -4358,6 +4359,7 @@ export const DATATEST : ITest[] = [
       { matn: "To’g’rilik", correct: true },
     ],
   },
+  
   {
     id: 208,
     savol: "\"Susambil\" ertagida bo’rilar nazdida Eshon kim edi?",
@@ -4555,6 +4557,922 @@ export const DATATEST : ITest[] = [
       { matn: "G’.G’ulom", correct: false },
     ],
   },
+  {
+    id: 224,
+    savol:
+      "H.Olimjonning «Oygul bilan Baxtiyor», «Semurg’, Parizod yoki Bunyod» adabiy ertaklari mazmunan qanday asarlar?",
+    javob: [
+      { matn: "Liro-epik", correct: true },
+      { matn: "Epik", correct: false },
+      { matn: "Lirik", correct: false },
+      { matn: "Syujetsiz", correct: false },
+    ],
+  },
+  {
+    id: 225,
+    savol:
+      "H.Olimjonning «Oygul bilan Baxtiyor» dostonining yozilishiga sabab bo’lgan ertakni belgilang.",
+    javob: [
+      { matn: "«Malikai Husnobod»", correct: true },
+      { matn: "«Guliqahqah»", correct: false },
+      { matn: "«Zumrad va Qimmat»", correct: false },
+      { matn: "«Muqbil tosh otar»", correct: false },
+    ],
+  },
+  {
+    id: 226,
+    savol:
+      "X. To’xtaboevning «Sehrli qalpoqcha» qissasida Hoshimjon Ro’zievga maslahat bergan shoir kim?",
+    javob: [
+      { matn: "Jo’ra Juman", correct: true },
+      { matn: "Mamarasul Bolta", correct: false },
+      { matn: "Saydullo aka", correct: false },
+      { matn: "Erkin Hamid", correct: false },
+    ],
+  },
+  {
+    id: 227,
+    savol: "A. Avloniy she’rlari berilgan qatorni aniqlang.",
+    javob: [
+      { matn: "«Bahor keldi», «Bulbul», «Bola ila gul»", correct: true },
+      { matn: "«Bari seniki», «Tongotar qo’shig’i», «Bulbul», «Sen etim emassan»", correct: false },
+      { matn: "«Bari seniki», «Siz mening yoshligimsiz», «Bahor keldi», «Bulbul»", correct: false },
+      { matn: "«Tong yulduzi», «Binafsha», «Navbahor», «Kapalak»", correct: false },
+    ],
+  },
+  {
+    id: 228,
+    savol:
+      "A. Avloniyning yoshlarni maorif madaniyatga chorlovchi, yaramas xulq-odatlarni tanqid qiluvchi darsligini aniqlang.",
+    javob: [
+      { matn: "«Adabiyot yohud milliy she’rlar»", correct: true },
+      { matn: "«Ikkinchi muallim»", correct: false },
+      { matn: "«O’qish kitobi»", correct: false },
+      { matn: "«Turkiy guliston yohud axloq»", correct: false },
+    ],
+  },
+  {
+    id: 229,
+    savol:
+      "A.Avloniyning boshlang’ich sinf o’quvchilari hayotidan olib yozilgan she’rlarini belgilang.",
+    javob: [
+      { matn: "«Maktab bolasi»", correct: true },
+      { matn: "«Yolg’onchi cho’pon»", correct: false },
+      { matn: "«Bulbul»", correct: false },
+      { matn: "«Bola ila gul»", correct: false },
+    ],
+  },
+  {
+    id: 230,
+    savol: "A.Avloniy necha yoshdan boshlab she’rlar yoza boshlagan?",
+    javob: [
+      { matn: "14 yoshdan", correct: true },
+      { matn: "10 yoshdan", correct: false },
+      { matn: "11 yoshdan", correct: false },
+      { matn: "12 yoshdan", correct: false },
+    ],
+  },
+  {
+    id: 231,
+    savol:
+      "Xalq pedagogikasida A.Avloniyning qaysi kitoblari katta rol o’ynagan?",
+    javob: [
+      {
+        matn:
+          "«Birinchi muallim», «Alifbe», «Ikkinchi muallim», «O’qish kitobi»",
+        correct: true,
+      },
+      {
+        matn:
+          "«O’qish kitobi», «Alifbe», «Maktab Gulistoni», «Birinchi muallim»",
+        correct: false,
+      },
+      {
+        matn:
+          "«Ikkinchi muallim», «Alifbe», «Adabiyot yohud milliy she’rlar», «O’qish kitobi»",
+        correct: false,
+      },
+      { matn: "Hammasi to’g’ri", correct: false },
+    ],
+  },
+  {
+    id: 232,
+    savol: "Zafar Diyorning birinchi she’rlar to’plami?",
+    javob: [
+      { matn: "«Qo’shiqlar»", correct: true },
+      { matn: "«Binafsha»", correct: false },
+      { matn: "«Kapalak»", correct: false },
+      { matn: "«Navbahor»", correct: false },
+    ],
+  },
+  {
+    id: 233,
+    savol:
+      "Zafar Diyorning mehnat mavzuiga bag’ishlangan she’rini ko’rsating?",
+    javob: [
+      {
+        matn: "«Kichkina bog’bon haqida doston»",
+        correct: true,
+      },
+      { matn: "«Kel uchaylik Shimolga»", correct: false },
+      { matn: "«Kitob, mening do’stimsan»", correct: false },
+      { matn: "«Qutb qo’shig’i»", correct: false },
+    ],
+  },
+  {
+    id: 234,
+    savol:
+      "A.Navoiyning \"Orazin yopqach ko’zimdan to’kilur har lahza yosh\" g’azaliga kim umr bo’yi yozgan g’azallarini almashtirmoqchi bo’lgan?",
+    javob: [
+      { matn: "Lutfiy", correct: true },
+      { matn: "Nizomiy", correct: false },
+      { matn: "Atoyi", correct: false },
+      { matn: "Sakkokiy", correct: false },
+    ],
+  },
+  {
+    id: 235,
+    savol: "Q.Muhammadiy she’rlari berilgan qatorni toping?",
+    javob: [
+      { matn: "«A’lochi Sodiq», «Mening orzuim»", correct: true },
+      { matn: "«Baxtli yoshlik», «Omonat»", correct: false },
+      { matn: "«Orzu», «Qaldirg’och»", correct: false },
+      { matn: "«Sening sovg’ang», «Orzu»", correct: false },
+    ],
+  },
+  {
+    id: 236,
+    savol: "Q.Muhammadiyning «Etik» she’rining qahramoni?",
+    javob: [
+      { matn: "Solijon", correct: true },
+      { matn: "Hoshimjon", correct: false },
+      { matn: "Mamajon", correct: false },
+      { matn: "Yodgor", correct: false },
+    ],
+  },
+  {
+    id: 237,
+    savol:
+      "O’ynashar diring-diring Deyishar: «Yuring-yuring» bayt muallifi kim?",
+    javob: [
+      { matn: "Q.Muhammadiy", correct: true },
+      { matn: "Z.Diyor", correct: false },
+      { matn: "G’.G’ulom", correct: false },
+      { matn: "I.Muslim", correct: false },
+    ],
+  },
+  {
+    id: 238,
+    savol:
+      "Sh.Sa’dullaning ikkinchi jahon urushi davrida yaratgan to’plamlarini belgilang?",
+    javob: [
+      { matn: "«Shohista», «Sen nima qilding?», «Ona va bola»", correct: true },
+      { matn: "«Ona va bola», «Yomg’ir yog’aloq», «Ozoda»", correct: false },
+      { matn: "«Bizning bog’chamiz», «Kachal polvon», «Oilamiz»", correct: false },
+      { matn: "«Laqma it», «Ayyor chumchuq», «Chol bilan bo’ri»", correct: false },
+    ],
+  },
+  {
+    id: 239,
+    savol:
+      "Angliyada qadimgi adabiyot tarafdorlari bilan yangi adabiyot tarafdorlari o’rtasidagi bahsga bag’ishlab Jonatan Svift qanday hajviy konflikt yozgan?",
+    javob: [
+      { matn: "Kitoblar jangi", correct: true },
+      { matn: "Stella uchun yozilgan kundaliklar", correct: false },
+      { matn: "Turli xil maqolalar", correct: false },
+      { matn: "Gulliverning sayohatlari", correct: false },
+    ],
+  },
+  {
+    id: 240,
+    savol:
+      "G’.G’ulomning bolalar adabiyoti nasriy janrining yuksalishiga hissa qo’shgan asarlarini toping.",
+    javob: [
+      {
+        matn: "«Yodgor», «Shum bola», «Tirilgan murda»",
+        correct: true,
+      },
+      {
+        matn: "«Sen etim emassan», «Yodgor», «Mening o’g’rigina bolam»",
+        correct: false,
+      },
+      {
+        matn: "«Shum bola», «Netay», «Barii seniki»",
+        correct: false,
+      },
+      {
+        matn: "«Siz mening yoshligimsiz», «Netay», «Yodgor»",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 241,
+    savol: "Daniyaning jahonga mashhur ertakchisi kim?",
+    javob: [
+      { matn: "X. Andersen", correct: true },
+      { matn: "J. Svift", correct: false },
+      { matn: "D. Defo", correct: false },
+      { matn: "Sh. Perro", correct: false },
+    ],
+  },
+  {
+    id: 242,
+    savol:
+      "Ey, sen xalqning to’yg’izuvchisi, barakali, muqaddas daryo. Ushbu bayt muallifi kim?",
+    javob: [
+      { matn: "Nekrasov", correct: true },
+      { matn: "Mayakovskiy", correct: false },
+      { matn: "Pushkin", correct: false },
+      { matn: "Marshak", correct: false },
+    ],
+  },
+  {
+    id: 243,
+    savol:
+      "Mavzu jihatidan «sehrli-fantastik» turkumiga kiruvchi ertaklarni belgilang.",
+    javob: [
+      {
+        matn: "«Susambil», «Guliqahqah», «To’rt yalqov»",
+        correct: true,
+      },
+      {
+        matn: "«Tohir va Zuhra», «Uch og’ayni botirlar», «Zumrad va Qimmat»",
+        correct: false,
+      },
+      {
+        matn: "«Bo’ri bilan tulki», «Oygul bilan Baxtiyor», «Yozi bilan Zebo»",
+        correct: false,
+      },
+      {
+        matn: "«Ziyod Botir», «Malikai Husnobod», «Tuhmatga uchragan kelin»",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 244,
+    savol:
+      "Quyidagi javoblardan qaysi birida xalq ertaklari tasnifi to’g’ri ko’rsatilgan?",
+    javob: [
+      {
+        matn: "Sehrli-maishiy va hayvonlar haqidagi ertaklar",
+        correct: true,
+      },
+      {
+        matn: "Sehrli, maishiy, novella-ertaklar",
+        correct: false,
+      },
+      {
+        matn: "Hayvonlar haqidagi, sehrli va topishmoq ertaklar",
+        correct: false,
+      },
+      {
+        matn: "Maishiy, topishmoqli, novella-ertaklar",
+        correct: false,
+      },
+    ],
+  },
+   {
+    id: 245,
+    savol:
+      "Oybekning qaysi qissasida Hirotning tarixiy voqealari, shahzodalarning Shohruh vafotidan keyingi taxt uchun kurashlari va Alisherning bolalik yillari haqida hikoya qilinadi?",
+    javob: [
+      { matn: "«Alisherning yoshligi» qissasida", correct: true },
+      { matn: "«Bolalik» qissasida", correct: false },
+      { matn: "«Zafar va Zahro»", correct: false },
+      { matn: "To’g’ri javob berilmagan", correct: false },
+    ],
+  },
+  {
+    id: 246,
+    savol: "«Shoh Saltan haqida ertak» asarining muallifi kim?",
+    javob: [
+      { matn: "A.S. Pushkin", correct: true },
+      { matn: "S.Ya. Marshak", correct: false },
+      { matn: "Tolstoy", correct: false },
+      { matn: "Aka-uka Grimmlar", correct: false },
+    ],
+  },
+  {
+    id: 247,
+    savol:
+      "J.Sviftning qaysi asari sayohatnoma bo‘lib, unda murakkab ruhiy va ijtimoiy-falsafiy muammolar ham yoritilgan?",
+    javob: [
+      { matn: "«Gulliverning sayohatlari»", correct: true },
+      { matn: "«Kitoblar jangi»", correct: false },
+      { matn: "«Bochka» ertagi", correct: false },
+      { matn: "To’g’ri javob yo’q", correct: false },
+    ],
+  },
+  {
+    id: 248,
+    savol:
+      "J.Sviftning qaysi asariga Volter: «Svift o’g’illarga qamchi urganida, otasiga ham tegib ketadi» deb baho bergan?",
+    javob: [
+      { matn: "«Bochka» ertagi", correct: true },
+      { matn: "«Gulliverning sayohatlari»", correct: false },
+      { matn: "«Kitoblar jangi»", correct: false },
+      { matn: "To’g’ri javob yo’q", correct: false },
+    ],
+  },
+  {
+    id: 249,
+    savol: "«Ravshanjonning qo’li tilga kirdi» she’ri muallifi kim?",
+    javob: [
+      { matn: "Q. Muhammadiy", correct: true },
+      { matn: "Z. Diyor", correct: false },
+      { matn: "P. Mo’min", correct: false },
+      { matn: "Oybek", correct: false },
+    ],
+  },
+  {
+    id: 250,
+    savol:
+      "Tabiat va fasllar kuychisi sifatida e’zozlangan shoir kim?",
+    javob: [
+      { matn: "Uyg’un", correct: true },
+      { matn: "Q. Muhammadiy", correct: false },
+      { matn: "Z. Diyor", correct: false },
+      { matn: "P. Mo’min", correct: false },
+    ],
+  },
+  {
+    id: 251,
+    savol:
+      "Oybek nechanchi yildan boshlab Alisher Navoiy ijodini chuqur o’rganishga kirishdi?",
+    javob: [
+      { matn: "1928 yildan", correct: true },
+      { matn: "1929 yildan", correct: false },
+      { matn: "1927 yildan", correct: false },
+      { matn: "1926 yildan", correct: false },
+    ],
+  },
+  {
+    id: 252,
+    savol:
+      "Jambil va Jurjon xonlari, Darxon, Tarlon obrazlari H.Olimjonning qaysi asarida keltirilgan?",
+    javob: [
+      { matn: "«Malikai Husnobod» ertagi", correct: false },
+      { matn: "«Oygul bilan Baxtiyor»", correct: true },
+      { matn: "«Hulkarning she’ri»", correct: false },
+      { matn: "«Vatan» she’ri", correct: false },
+    ],
+  },
+  {
+    id: 253,
+    savol:
+      "H.Olimjonning qaysi dostonida mehnatkashlarning ozodlik uchun kurashi va ularning yengilmas irodasi haqida tasavvur hosil bo’ladi?",
+    javob: [
+      { matn: "«Oygul bilan Baxtiyor»", correct: true },
+      { matn: "«Malikai Husnobod» ertagi", correct: false },
+      { matn: "«Semurg’ yoki Parizod va Bunyod»", correct: false },
+      { matn: "To’g’ri javob yo’q", correct: false },
+    ],
+  },
+  {
+    id: 254,
+    savol: "Qaysi shoir «Baxt va shodlik kuychisi» deya e’tirof etiladi?",
+    javob: [
+      { matn: "H.Olimjon", correct: true },
+      { matn: "Q. Muhammadiy", correct: false },
+      { matn: "Z. Diyor", correct: false },
+      { matn: "P. Mo’min", correct: false },
+    ],
+  },
+  {
+    id: 255,
+    savol:
+      "H.Olimjonning qaysi asarida Xolvoy yolg’onchi, xasis boy timsolida gavdalanadi?",
+    javob: [
+      { matn: "«Yolg’onchining jazosi» ertak-dostonida", correct: true },
+      { matn: "«Qizaloqning o’limi»", correct: false },
+      { matn: "«O’g’irlangan husn»", correct: false },
+      { matn: "«Inson»", correct: false },
+    ],
+  },
+  {
+    id: 256,
+    savol:
+      "Qaysi bolalar shoiri she’rlarida bolalarga qarata «g’oyat quvonardim bo’lolsa she’rim, qadrdon do’stingiz va ulfatingiz» deb orzu qilgan?",
+    javob: [
+      { matn: "Uyg’un", correct: true },
+      { matn: "H.Olimjon", correct: false },
+      { matn: "Q. Muhammadiy", correct: false },
+      { matn: "Z. Diyor", correct: false },
+    ],
+  },
+  {
+    id: 257,
+    savol:
+      "«Yolg’onchining jazosi» ertak-dostonining syujet chizig’i Navoiying qaysi hikoyasiga o’xshab ketadi?",
+    javob: [
+      { matn: "«Sher va durroj»", correct: true },
+      { matn: "«Xotam toyi»", correct: false },
+      { matn: "«Shoh G’oziy»", correct: false },
+      { matn: "To’g’ri javob berilmagan", correct: false },
+    ],
+  },
+  {
+    id: 258,
+    savol:
+      "Rus bolalar adabiyotida kichkintoylar uchun katta she’riyat yaratgan, taniqli tarjimon va dramaturg kim?",
+    javob: [
+      { matn: "S. Ya. Marshak", correct: true },
+      { matn: "J. Svift", correct: false },
+      { matn: "A.S. Pushkin", correct: false },
+      { matn: "Tolstoy", correct: false },
+    ],
+  },
+  {
+    id: 259,
+    savol:
+      "Chinliklar uni «Adab ul-muluk», mochinliklar «Amin ul-mamlakat» deb atashadi. Bu asar qaysi?",
+    javob: [
+      { matn: "«Qutadg’u bilig»", correct: true },
+      { matn: "«Qobusnoma»", correct: false },
+      { matn: "«Boburnoma»", correct: false },
+      { matn: "«Xamsa»", correct: false },
+    ],
+  },
+  {
+    id: 260,
+    savol: "Hamzaning taxallusi?",
+    javob: [
+      { matn: "Nihoniy", correct: true },
+      { matn: "Tong yulduzi", correct: false },
+      { matn: "Julqunboy", correct: false },
+      { matn: "Ovsar", correct: false },
+    ],
+  },
+  {
+    id: 261,
+    savol: "Hamza qachon devon chop etadi va she’rlarini belgilang.",
+    javob: [
+      { matn: "1905 yil 214 she’r", correct: true },
+      { matn: "1906 yil 215 she’r", correct: false },
+      { matn: "1907 yil 216 she’r", correct: false },
+      { matn: "1908 yil 217 she’r", correct: false },
+    ],
+  },
+  {
+    id: 262,
+    savol:
+      "Qaysi olim «Qutadg’u bilig»ni ommabop qilib o’zbekchaga o’girgan?",
+    javob: [
+      { matn: "B. To’xliev", correct: true },
+      { matn: "Q. Yo’ldoshev", correct: false },
+      { matn: "Mirtemir", correct: false },
+      { matn: "Qayum Karimov", correct: false },
+    ],
+  },
+  {
+    id: 263,
+    savol:
+      "«Qutadg’u bilig»ni baytma-bayt ilmiy tarjima qilgan kim?",
+    javob: [
+      { matn: "Qayum Karimov", correct: true },
+      { matn: "B. To’xliev", correct: false },
+      { matn: "Mirtemir", correct: false },
+      { matn: "To’g’ri javob ko’rsatilmagan", correct: false },
+    ],
+  },
+  {
+    id: 264,
+    savol: "«Qutadg’u bilig»ning 31-bobi nimaga bag’ishlangan?",
+    javob: [
+      { matn: "Rahbar ma’naviyati", correct: true },
+      { matn: "Odob-axloq", correct: false },
+      { matn: "Do’stlik", correct: false },
+      { matn: "Mehmondorchilik", correct: false },
+    ],
+  },
+  {
+    id: 265,
+    savol:
+      "«Qutadg’u bilig»da beklik mustahkam bo’lishi uchun nimalar zarurligi aytilgan?",
+    javob: [
+      {
+        matn:
+          "Kuchli lashkar, ko’p boylik, badavlat xalq, adolatli siyosat",
+        correct: true,
+      },
+      {
+        matn: "Ko’p boylik, ulfatchilik, do’stlik, kuchli lashkar",
+        correct: false,
+      },
+      {
+        matn:
+          "Rahbar ma’naviyati, odamgarchilik, do’stlik, ko’p boylik",
+        correct: false,
+      },
+      { matn: "To’g’ri javob berilmagan", correct: false },
+    ],
+  },
+  {
+    id: 266,
+    savol:
+      "O’zi xunuk, gapi bemaza odamlar qurbaqaga o’xshaydi. Bu Navoiying qaysi asaridan olingan?",
+    javob: [
+      { matn: "«Mahbub ul qulub»", correct: true },
+      { matn: "«Hayrat ul abror»", correct: false },
+      { matn: "«Farhod va Shirin»", correct: false },
+      { matn: "«Muhokamat ul avzon»", correct: false },
+    ],
+  },
+  {
+    id: 267,
+    savol:
+      "Alisher Navoiyga berilgan: «Turk tilining o’lgan jasadiga Masih nafasi bilan ruh kiritdi...» ta’rif muallifi kim?",
+    javob: [
+      { matn: "H. Boyqaro", correct: true },
+      { matn: "Jomiy", correct: false },
+      { matn: "Lutfiy", correct: false },
+      { matn: "Bobur", correct: false },
+    ],
+  },
+  {
+    id: 268,
+    savol: "«Mudbir» so’zining ma’nosi to’g’ri berilgan qatorni toping.",
+    javob: [
+      { matn: "Baxtsiz", correct: true },
+      { matn: "Cho’pon", correct: false },
+      { matn: "Baxtli", correct: false },
+      { matn: "Omadli", correct: false },
+    ],
+  },
+  {
+    id: 269,
+    savol:
+      "«Hayrat ul-abror»dan olingan misralarda Navoiy kimni tariflagan?",
+    javob: [
+      { matn: "Jomiyni", correct: true },
+      { matn: "H. Boyqaroni", correct: false },
+      { matn: "Lutfiyni", correct: false },
+      { matn: "Boburni", correct: false },
+    ],
+  },
+  {
+    id: 270,
+    savol:
+      "Esib keldi Sharqdan bahorning yeli, Jahon ko’rki-chun osdi firdavs yo’li. Ushbu misralar qaysi asardan olingan?",
+    javob: [
+      { matn: "«Qutadg’u bilig»", correct: true },
+      { matn: "«Mahbub ul qulub»", correct: false },
+      { matn: "«Hayrat ul abror»", correct: false },
+      { matn: "«Farhod va Shirin»", correct: false },
+    ],
+  },
+  {
+    id: 271,
+    savol:
+      "«Qutadg’u bilig»dan: «kishilar qo’li ochiq bo’ladi, ko’nglini xudo berganidan ham keng tutadi». Bu parchada qaysi ijtimoiy tabaqa nazarda tutilgan?",
+    javob: [
+      { matn: "Dehqonlar", correct: true },
+      { matn: "Ovchilar", correct: false },
+      { matn: "Sozandalar", correct: false },
+      { matn: "Muallimlar", correct: false },
+    ],
+  },
+  {
+    id: 272,
+    savol: "“Oqbura to’lqinlarida” she’ri kimning qalamiga mansub?",
+    javob: [
+      { matn: "Tursunboy Adashboev", correct: true },
+      { matn: "H. Olimjon", correct: false },
+      { matn: "Q. Muhammadiy", correct: false },
+      { matn: "Z. Diyor", correct: false },
+    ],
+  },
+  {
+    id: 273,
+    savol:
+      "Anvar Obidjonning “Siz yozgan maktublar” turkumidagi she’rlarida qanday poetik obrazlar keltirilgan?",
+    javob: [
+      {
+        matn:
+          "Bolalar topqirligi va fikrlash doirasini o’stirishga qaratilgan poetik obrazlar",
+        correct: true,
+      },
+      {
+        matn:
+          "Ta’lim-tarbiya hamda ma’naviyat masalalari mujassam poetik obrazlar",
+        correct: false,
+      },
+      {
+        matn: "Obrazlilikning shakl bilan uyg’unligi",
+        correct: false,
+      },
+      { matn: "To’g’ri javob ko’rsatilmagan", correct: false },
+    ],
+  },
+  {
+    id: 274,
+    savol:
+      "Istiqlol davri bolalar adabiyotining qaysi adibi “Siz eshitmagan qo’shiqlar” turkumidagi she’r muallifi?",
+    javob: [
+      { matn: "Z. Isomiddinov", correct: true },
+      { matn: "Abdusaid Ko’chimov", correct: false },
+      { matn: "Dilshod Rajabov", correct: false },
+      { matn: "Abduruhmon Akbar", correct: false },
+    ],
+  },
+  {
+    id: 275,
+    savol:
+      "G’.G’ulom «Shum bola» asari avvalgi nashrida asar nomini qanday atagan?",
+    javob: [
+      { matn: "«Dovdirash»", correct: true },
+      { matn: "«Qiyomat»", correct: false },
+      { matn: "«Bemor»", correct: false },
+      { matn: "«Ovsar»", correct: false },
+    ],
+  },
+  {
+    id: 276,
+    savol:
+      "“Qasoskorning oltin boshi”, “Besh bolali yigitcha” asarlari muallifi kim?",
+    javob: [
+      { matn: "H. To’xtaboev", correct: true },
+      { matn: "Tursunboy Adashboev", correct: false },
+      { matn: "H. Olimjon", correct: false },
+      { matn: "Oybek", correct: false },
+    ],
+  },
+  {
+    id: 277,
+    savol:
+      "G’afur G’ulom haqida: “Zamonlar o’tib, kelajakda jahon poeziyasining tarixi yaratilsa...” degan fikr kimning qalamiga mansub?",
+    javob: [
+      { matn: "O. Sharafiddinov", correct: true },
+      { matn: "Oybek", correct: false },
+      { matn: "A. Quljonov", correct: false },
+      { matn: "Q. Yo’ldoshev", correct: false },
+    ],
+  },
+  {
+    id: 278,
+    savol:
+      "G’afur G’ulomning 1923 yilda matbuotda e’lon qilingan birinchi she’rini belgilang.",
+    javob: [
+      { matn: "“Go’zallik nimada?”", correct: true },
+      { matn: "«Vaqt»", correct: false },
+      { matn: "«Sog’inish»", correct: false },
+      { matn: "«Kuzatish»", correct: false },
+    ],
+  },
+  {
+    id: 279,
+    savol:
+      "G’afur G’ulomning o’zbek xalqining o’tmishdagi og’ir hayoti tasvirlangan, qarovsiz bolalar mavzusidagi asarini belgilang.",
+    javob: [
+      { matn: "“Shum bola”", correct: true },
+      { matn: "“Netay”", correct: false },
+      { matn: "“Tirilgan murda”", correct: false },
+      { matn: "“Yodgor”", correct: false },
+    ],
+  },
+  {
+    id: 280,
+    savol:
+      "G’afur G’ulom umrining so’ngida qanday nomlangan hikoyalar to’plamini nashr etdi?",
+    javob: [
+      { matn: "“Gilos danagidan tasbeh”", correct: true },
+      { matn: "“Mening o’g’rigina bolam”", correct: false },
+      { matn: "“Hasan kayfiy”", correct: false },
+      { matn: "“Afandi o’lmaydigan bo’ldi”", correct: false },
+    ],
+  },
+  {
+    id: 281,
+    savol:
+      "Bir kilo xolis paxta chit bo’lib to’qilguncha... Misralar muallifini belgilang.",
+    javob: [
+      { matn: "G’. G’ulom", correct: true },
+      { matn: "H. Olimjon", correct: false },
+      { matn: "Q. Muhammadiy", correct: false },
+      { matn: "Z. Diyor", correct: false },
+    ],
+  },
+  {
+    id: 282,
+    savol:
+      "Oybekning 60-yillarda yaratilgan asarlarini belgilang.",
+    javob: [
+      { matn: "“Davrim jarohati” va “Bolalik”", correct: true },
+      { matn: "“Zafar va Zahro” va “Haqgo’ylar”", correct: false },
+      { matn: "“Qutlug’ qon” va “Navoiy”", correct: false },
+      { matn: "“Temur” va “Bobur”, “Bolalik”", correct: false },
+    ],
+  },
+  {
+    id: 283,
+    savol: "Oybekning qaysi dostoni tugallanmay qolgan?",
+    javob: [
+      { matn: "“Temur” va “Bobur”", correct: true },
+      { matn: "“Zafar va Zahro”", correct: false },
+      { matn: "“Haqgo’ylar”", correct: false },
+      { matn: "“Nur qidirib”", correct: false },
+    ],
+  },
+  {
+    id: 284,
+    savol:
+      "1909 yil 12 dekabrda Jizzaxda tug’ilgan, 4 yoshida yetim qolgan adib kim?",
+    javob: [
+      { matn: "H. Olimjon", correct: true },
+      { matn: "Oybek", correct: false },
+      { matn: "Q. Muhammadiy", correct: false },
+      { matn: "Z. Diyor", correct: false },
+    ],
+  },
+  {
+    id: 285,
+    savol:
+      "H. Olimjonning «Oygul bilan Baxtiyor» dostoni negizida qaysi ertak mujassamlashgan?",
+    javob: [
+      { matn: "«Malikai Husnobod» ertagi", correct: true },
+      { matn: "“Uch og’a-ini botirlar”", correct: false },
+      { matn: "“Zumrad va Qimmat”", correct: false },
+      { matn: "To’g’ri javob berilmagan", correct: false },
+    ],
+  },
+  {
+    id: 286,
+    savol:
+      "«Ofeliyaning o’limi», «Daryo tiniq...», «Eng gullagan yoshlik chog’imda» she’rlar muallifi kim?",
+    javob: [
+      { matn: "H. Olimjon", correct: true },
+      { matn: "Oybek", correct: false },
+      { matn: "Q. Muhammadiy", correct: false },
+      { matn: "Z. Diyor", correct: false },
+    ],
+  },
+  {
+    id: 287,
+    savol:
+      "Oybekning qaysi asari Hamza nomidagi Davlat mukofotiga sazovor bo’lgan?",
+    javob: [
+      { matn: "«Bolalik» qissasi", correct: true },
+      { matn: "“Zafar va Zahro”", correct: false },
+      { matn: "“Haqgo’ylar”", correct: false },
+      { matn: "“Nur qidirib”", correct: false },
+    ],
+  },
+  {
+    id: 288,
+    savol: "A. Oripov qachon “O’zbekiston Qahramoni” unvonini oldi?",
+    javob: [
+      { matn: "1998 yil", correct: true },
+      { matn: "1997 yil", correct: false },
+      { matn: "1996 yil", correct: false },
+      { matn: "1995 yil", correct: false },
+    ],
+  },
+  {
+    id: 289,
+    savol: "“Hayrat ul abror” xotimasi necha bob?",
+    javob: [
+      { matn: "2 bob", correct: true },
+      { matn: "3 bob", correct: false },
+      { matn: "4 bob", correct: false },
+      { matn: "5 bob", correct: false },
+    ],
+  },
+  {
+    id: 290,
+    savol:
+      "Oybekning «Bolalik» qissasi nechanchi yil qanday mukofotga sazovor bo’lgan?",
+    javob: [
+      {
+        matn: "Hamza nomidagi Davlat mukofotiga (1963)",
+        correct: true,
+      },
+      { matn: "Nobel mukofotiga (1964)", correct: false },
+      { matn: "Qodiriy nomidagi mukofotga", correct: false },
+      { matn: "To’g’ri javob ko’rsatilmagan", correct: false },
+    ],
+  },
+  {
+    id: 291,
+    savol: "«Zarbulmasal»da qanday badiiy san’at qo’llanilgan?",
+    javob: [
+      { matn: "«Irsolul masal»", correct: true },
+      { matn: "Tazod", correct: false },
+      { matn: "Talmeh", correct: false },
+      { matn: "Saj", correct: false },
+    ],
+  },
 
+  {
+    id: 292,
+    savol: "G’afur G’ulomning ijodiy o’sishiga eng ko’p samarali ta’sir ko’rsatgan rus adiblari qatorini ko’rsating.",
+    javob: [
+      { matn: "Maksim Gorkiy va V.V.Mayakovskiy", correct: true },
+      { matn: "A.S.Pushkin, M.Yu.Lermontov", correct: false },
+      { matn: "N.A.Nekrasov, L.N.Tolstoy", correct: false },
+      { matn: "A.P.Chexov, M.Yu.Lermontov", correct: false },
+    ],
+  },
+  {
+    id: 293,
+    savol: "G’afur G’ulom 1923 yildan to 1930 yilgacha qancha she’r, hikoya, ocherk, doston, feleton yozgan?",
+    javob: [
+      { matn: "Besh yuzga yaqin", correct: true },
+      { matn: "To’rt yuzga yaqin", correct: false },
+      { matn: "Uch yuzga yaqin", correct: false },
+      { matn: "Ikki yuzga yaqin", correct: false },
+    ],
+  },
+  {
+    id: 294,
+    savol: "“Chorbozorchi”, “Soat”, “Jo’rabo’za” hikoyalar muallifi kim?",
+    javob: [
+      { matn: "G’afur G’ulom", correct: true },
+      { matn: "H.Olimjon", correct: false },
+      { matn: "Oybek", correct: false },
+      { matn: "Uyg’un", correct: false },
+    ],
+  },
+  {
+    id: 295,
+    savol: "Jo’ra, Saodat va Mehri obrazlari G’.G’ulomning qaysi asari qahramonlari?",
+    javob: [
+      { matn: "“Yodgor” qissasi", correct: true },
+      { matn: "“Chorbozorchi”", correct: false },
+      { matn: "“Soat”", correct: false },
+      { matn: "“Jo’rabo’za”", correct: false },
+    ],
+  },
+  {
+    id: 296,
+    savol: "1905 yil 16 yanvarda Toshkentning eski shaharida to’quvchi oilasida tug’ilgan adibni belgilang.",
+    javob: [
+      { matn: "Oybek", correct: true },
+      { matn: "G’afur G’ulom", correct: false },
+      { matn: "H.Olimjon", correct: false },
+      { matn: "Q.Muhammadiy", correct: false },
+    ],
+  },
+  {
+    id: 297,
+    savol: "«Bola Alisher» qissasining muallifi kim?",
+    javob: [
+      { matn: "Oybek", correct: true },
+      { matn: "G’afur G’ulom", correct: false },
+      { matn: "H.Olimjon", correct: false },
+      { matn: "Uyg’un", correct: false },
+    ],
+  },
+  {
+    id: 298,
+    savol: "Qaysi adib 30-yillarda yozilgan maqolalari bilan adabiyotshunoslik rivojiga katta hissa qo’shdi?",
+    javob: [
+      { matn: "Oybek", correct: true },
+      { matn: "G’afur G’ulom", correct: false },
+      { matn: "H.Olimjon", correct: false },
+      { matn: "Uyg’un", correct: false },
+    ],
+  },
+  {
+    id: 299,
+    savol: "«Hayratul-abror»ning nechanchi maqolati rostgo’ylik, halollik va to’g’rilikka bag’ishlangan?",
+    javob: [
+      { matn: "o’ninchi maqolati", correct: true },
+      { matn: "sakkizinchi maqolati", correct: false },
+      { matn: "ettinchi maqolati", correct: false },
+      { matn: "oltinchi maqolati", correct: false },
+    ],
+  },
+  {
+    id: 300,
+    savol: "Alisher Navoiyning qaysi dostonida hoqon elning uch yillik xirojidan voz kechadi?",
+    javob: [
+      { matn: "«Farhod va Shirin»", correct: true },
+      { matn: "«Sab’ai sayyor»", correct: false },
+      { matn: "«Layli va Majnun»", correct: false },
+      { matn: "«Saddi Iskandariy»", correct: false },
+    ],
+  },
+  {
+    id: 301,
+    savol: "«To’ymadingmi, Qaradaryo» qo’shig’i qaysi turkumga kiradi va kim (nima) ning tilidan aytilgan?",
+    javob: [
+      { matn: "O’rim qo’shig’i, arpa, bug’doy tilidan", correct: true },
+      { matn: "Turey-turey qo’shig’i, echki tilidan", correct: false },
+      { matn: "Churiyalar sovliq tilidan", correct: false },
+      { matn: "Churiyalar, echki tilidan", correct: false },
+    ],
+  },
+  {
+    id: 302,
+    savol: "«Choy momo» qaysi tangri sharafiga aytilgan?",
+    javob: [
+      { matn: "Zardushtiylarning shamol tangrisi – «Chuy momo» sharafiga aytilgan", correct: true },
+      { matn: "Otashparastlarning olov tangrisi «Choy momo» sharafiga", correct: false },
+      { matn: "Otashparastlarning yomg’ir tangrisi «Chuy momo» sharafiga aytilgan", correct: false },
+      { matn: "Zardushtiylarning quyosh tangrisi «Chuy momo» sharafiga", correct: false },
+    ],
+  },
   
 ]
