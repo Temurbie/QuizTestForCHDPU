@@ -3352,6 +3352,992 @@ export const DATATEST : ITest[] = [
         correct: false,
       }
     ]
-  }
+  },
+  {
+    id: 153,
+    savol: ' ',
+    img: "1.png",
+    javob: [
+      {
+        matn: 'A',
+        correct: true,
+      },
+      {
+        matn: 'B',
+        correct: false,
+      },
+      {
+        matn: 'C',
+        correct: false,
+      },
+      {
+        matn: 'D',
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 154,
+    savol: ' ',
+    img: "154.png",
+    javob: [
+      {
+        matn: 'A',
+        correct: false,
+      },
+      {
+        matn: 'B',
+        correct: false,
+      },
+      {
+        matn: 'C',
+        correct: true,
+      },
+      {
+        matn: 'D',
+        correct: false,
+      }
+    ]
+  },
+    {
+    id: 155,
+    savol: ' ',
+    img: "155.png",
+    javob: [
+      {
+        matn: 'A',
+        correct: false,
+      },
+      {
+        matn: 'B',
+        correct: false,
+      },
+      {
+        matn: 'C',
+        correct: true,
+      },
+      {
+        matn: 'D',
+        correct: false,
+      }
+    ]
+  },
+   {
+    id: 156,
+    savol: ' ',
+    img: "156.png",
+    javob: [
+      {
+        matn: 'A',
+        correct: false,
+      },
+      {
+        matn: 'B',
+        correct: false,
+      },
+      {
+        matn: 'C',
+        correct: false,
+      },
+      {
+        matn: 'D',
+        correct: true,
+      }
+    ]
+  },
+  {
+    id: 157,
+    savol: "3 ta o’nlik, 5 ta birlik, 8 ta yuzlikdan tashkil topgan sonni toping.",
+    javob: [
+      {
+        matn: "358",
+        correct: false,
+      },
+      {
+        matn: "835",
+        correct: true,
+      },
+      {
+        matn: "385",
+        correct: false,
+      },
+      {
+        matn: "853",
+        correct: false,
+      }
+    ]
+  },
+
+   {
+    id: 158,
+    savol: ' ',
+    img: "158.png",
+    javob: [
+      {
+        matn: 'A',
+        correct: true ,
+      },
+      {
+        matn: 'B',
+        correct: false,
+      },
+      {
+        matn: 'C',
+        correct: false,
+      },
+      {
+        matn: 'D',
+        correct: false,
+      }
+    ]
+  },
+
+  {
+    id: 159,
+    savol: "Boshlang’ich matematika kursi tarkibi qanday materiallarni o’z ichiga oladi?",
+    javob: [
+      {
+        matn: "vazifalar, tenglamalar, miqdorlar",
+        correct: false,
+      },
+      {
+        matn: "algebraik, geometrik, miqdorlar",
+        correct: false,
+      },
+      {
+        matn: "o‘nlik, yuzlik, minglik",
+        correct: false,
+      },
+      {
+        matn: "arifmetik, algebraik va geometrik",
+        correct: true,
+      }
+    ]
+  },
+  {
+    id: 160,
+    savol: "8 ga bo’lganda bo’linma 15, qoldiq 4 chiqadigan sonni toping.",
+    javob: [
+      {
+        matn: "68",
+        correct: false,
+      },
+      {
+        matn: "124",
+        correct: true,
+      },
+      {
+        matn: "27",
+        correct: false,
+      },
+      {
+        matn: "47",
+        correct: false,
+      }
+    ]
+  },
+    {
+    id: 161,
+    savol: "O‘qitish usuli bu...",
+    javob: [
+      {
+        matn: "tashkiliy qism, o’tilganlarni takrorlash; yangi bilimlarni o'zlashtirish; ko'nikma va malakalarni shakllantirish; uy vazifasi va darsni umumlashtirish",
+        correct: true,
+      },
+      {
+        matn: "o’tilganlarni takrorlash; yangi bilimlarni o'zlashtirish; ko'nikma va malakalarni shakllantirish; mavzuga oid adabiyotlar bilan tanishish",
+        correct: false,
+      },
+      {
+        matn: "o’tilganlarni takrorlash; ko'nikma va malakalarni shakllantirish; zarur ko‘rgazmali qurollar ishlab chiqarish",
+        correct: false,
+      },
+      {
+        matn: "yangi bilimlarni o'zlashtirish; ko'nikma va malakalarni shakllantirish; mavzuga oid adabiyotlar bilan tanishish",
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 162,
+    savol: "Boshlang’ich matematika kursi tarkibi qanday materiallarni o’z ichiga oladi?",
+    javob: [
+      {
+        matn: "vazifalar, tenglamalar, miqdorlar",
+        correct: false,
+      },
+      {
+        matn: "algebraik, geometrik, miqdorlar",
+        correct: false,
+      },
+      {
+        matn: "o‘nlik, yuzlik, minglik",
+        correct: false,
+      },
+      {
+        matn: "arifmetik, algebraik va geometrik",
+        correct: true,
+      }
+    ]
+  },
+  {
+    id: 163,
+    savol: "8 ga bo’lganda bo’linma 15, qoldiq 4 chiqadigan sonni toping.",
+    javob: [
+      {
+        matn: "68",
+        correct: false,
+      },
+      {
+        matn: "124",
+        correct: true,
+      },
+      {
+        matn: "27",
+        correct: false,
+      },
+      {
+        matn: "47",
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 164,
+    savol: "O'quvchilarning darsdan tashqari vaqtida tashkil qilinadigan, dastur bilan bog'liq bo'lgan material asosida ixtiyoriylik tamoyiliga asoslangan mashg'ulotlar deganda nima tushuniladi?",
+    javob: [
+      {
+        matn: "ekskursiya",
+        correct: false,
+      },
+      {
+        matn: "sinfdan tashqari ish",
+        correct: true,
+      },
+      {
+        matn: "sinfdan ichidagi ish",
+        correct: false,
+      },
+      {
+        matn: "to'garak",
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 165,
+    savol: "To‘garak ishini qaysi sinfdan tashkil etish maqsadga muvofiq?",
+    javob: [
+      {
+        matn: "1-sinfning 1-yarmidan",
+        correct: false,
+      },
+      {
+        matn: "2-sinfning 2-yarmidan",
+        correct: false,
+      },
+      {
+        matn: "1-sinfning 2-yarmidan",
+        correct: true,
+      },
+      {
+        matn: "2-sinfning 1-yarmidan",
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 166,
+    savol: "To’g’ri to’rtburchakning bir tomoni 7 dm ga teng bo’lib, u qo’shni tomondan 50 cm qisqa bo’lsa, to’g’ri to’rtburchakning perimetrini toping.",
+    javob: [
+      {
+        matn: "27 dm",
+        correct: false,
+      },
+      {
+        matn: "29 dm",
+        correct: true,
+      },
+      {
+        matn: "114 cm",
+        correct: false,
+      },
+      {
+        matn: "57 dm",
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 167,
+    savol: "Matematik viktorinalar bu",
+    javob: [
+      {
+        matn: "Matematik tanlovlar",
+        correct: false,
+      },
+      {
+        matn: "Matematik olimpiyadalar",
+        correct: true,
+      },
+      {
+        matn: "Zakovat o’yinlari",
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 168,
+    savol: "..................... - gazetalardan farqli ravishda faqat o'quvchilarga yechish uchun berilgan masalalar va savollardan iborat bo'ladi. Javoblar yozma tarzda ma’lum vaqt ichida o'qituvchi tomonidan g'olib o'quvchi aniqlanib, e'lon qilinadi.",
+    javob: [
+      {
+        matn: "Matematik viktorinalar",
+        correct: true,
+      },
+      {
+        matn: "Matematik tanlovlar",
+        correct: false,
+      },
+      {
+        matn: "Matematik olimpiyadalar",
+        correct: false,
+      },
+      {
+        matn: "Zakovat o’yinlari",
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 169,
+    savol: "Matematikada didaktik materiallar necha turga bo‘linadi?",
+    javob: [
+      {
+        matn: "1 ta",
+        correct: false,
+      },
+      {
+        matn: "2 ta",
+        correct: false,
+      },
+      {
+        matn: "3 ta",
+        correct: true,
+      },
+      {
+        matn: "4 ta",
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 170,
+    savol: "Boshlang‘ich sinflarda o‘tiladigan asosiy miqdorlar to‘g‘ri ko‘rsatilgan qatorni toping?",
+    javob: [
+      {
+        matn: "Uzunlik, massa, hajm, vaqt",
+        correct: true,
+      },
+      {
+        matn: "Baho, qiymat, narx",
+        correct: false,
+      },
+      {
+        matn: "Sekund, minut, yuza",
+        correct: false,
+      },
+      {
+        matn: "Hammasi to’g’ri",
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 171,
+    savol: "To‘g‘ri munosabatni belgilang:",
+    javob: [
+      {
+        matn: "5 t 800 kg - 2 t 500 kg < 7 t 500 kg - 4 t 300 kg",
+        correct: false,
+      },
+      {
+        matn: "1 sr 30 kg + 140 kg > 5 sr 90 kg - 2 sr 60 kg",
+        correct: false,
+      },
+      {
+        matn: "5 kg 700 g - 2 kg 400 g = 1 kg 200 g + 2 kg 200 g",
+        correct: false,
+      },
+      {
+        matn: "1 kg 300 g + 3 kg 400 g < 4 kg 500 g + 1 kg 300 g",
+        correct: true,
+      }
+    ]
+  },
+  {
+    id: 172,
+    savol: "7 t 500 kg ni kilogramda ifodalang",
+    javob: [
+      {
+        matn: "7500 kg",
+        correct: true,
+      },
+      {
+        matn: "750 kg",
+        correct: false,
+      },
+      {
+        matn: "75 kg",
+        correct: false,
+      },
+      {
+        matn: "75000 kg",
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 173,
+    savol: "Kvadratning tomoni 15 dm ga teng bo’lsa, yuzasini toping.",
+    javob: [
+      {
+        matn: "225 dm²",
+        correct: true,
+      },
+      {
+        matn: "60 dm²",
+        correct: false,
+      },
+      {
+        matn: "30 dm²",
+        correct: false,
+      },
+      {
+        matn: "150 dm²",
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 174,
+    savol: "Asosiy miqdorlarni o‘rgatishdagi eng muhim vazifalardan biri bu?",
+    javob: [
+      {
+        matn: "o‘lchov asboblari bn tanishtirish",
+        correct: false,
+      },
+      {
+        matn: "o‘lchov asboblari bilan tanishtirish, miqdorlarning birliklarini o‘rgatish",
+        correct: true,
+      },
+      {
+        matn: "miqdorlarning birliklarini o‘rgatish",
+        correct: false,
+      },
+      {
+        matn: "ko‘proq misol va masala o‘rgatish",
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 175,
+    savol: "Baho, qiymat, narx tushunchalari qachon o‘zlashtirib boriladi?",
+    javob: [
+      {
+        matn: "misollar yechish jarayonida",
+        correct: true,
+      },
+      {
+        matn: "mavzuning kirish qismida",
+        correct: false,
+      },
+      {
+        matn: "darsda o‘rgatilmaydi",
+        correct: false,
+      },
+      {
+        matn: "alohida mavzu bilan beriladi",
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 176,
+    savol: "To’g’ri to’rtburchakning tomonlari 16 dm va 80 cm ga teng bo’lsa, to’rtburchak perimetrini toping.",
+    javob: [
+      {
+        matn: "48 cm",
+        correct: false,
+      },
+      {
+        matn: "48 dm",
+        correct: true,
+      },
+      {
+        matn: "192 cm",
+        correct: false,
+      },
+      {
+        matn: "192 dm",
+        correct: false,
+      }
+    ]
+  },
+  {
+    id: 177,
+    savol: "Dars ishlanmasi –",
+    javob: [
+      {
+        matn: "o’qituvchi ijodkorligini aniqlovchi omil",
+        correct: true,
+      },
+      {
+        matn: "hamma bir xil shaklda yozishi shart",
+        correct: false,
+      },
+      {
+        matn: "darsni pedagogik, didaktik va uslubiy jihatdan rejalashtiruvchi",
+        correct: false,
+      },
+      {
+        matn: "loyihalashtiruvchi hujjat",
+        correct: false,
+      }
+    ]
+  },
+   {
+    id: 177,
+    savol: "Dars rejasi –",
+    javob: [
+      {
+        matn: "darsni pedagogik, didaktik va uslubiy jihatdan rejalashtiruvchi, loyihalashtiruvchi hujjat",
+        correct: true,
+      },
+      {
+        matn: "o’qituvchi ijodkorligini aniqlovchi omil",
+        correct: false,
+      },
+      {
+        matn: "xamma bir xil shaklda yozishi shart",
+        correct: false,
+      },
+      {
+        matn: "darsni pedagogik, didaktik va uslubiy jihatdan rejalashtiruvchi",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 178,
+    savol: "Matematika fanining o‘rganadigan ob’ekti ... iboratdir.",
+    javob: [
+      {
+        matn: "fazoviy shakllar",
+        correct: false,
+      },
+      {
+        matn: "fazoviy shakllar va ular orasidagi miqdoriy munosabatlardan",
+        correct: true,
+      },
+      {
+        matn: "geometrik shakllar",
+        correct: false,
+      },
+      {
+        matn: "miqdoriy munosabatlardan",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 179,
+    savol: "“Metodika” grekcha so‘z bo‘lib, “metod” degani ... demakdir.",
+    javob: [
+      {
+        matn: "Yo’l",
+        correct: true,
+      },
+      {
+        matn: "Usul",
+        correct: false,
+      },
+      {
+        matn: "O’rgataman",
+        correct: false,
+      },
+      {
+        matn: "O’qitish",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 180,
+    savol: "Matematika o’qitish metodikasi o‘zining tuzilish xususiyatiga ko‘ra shartli ravishda qanday bo‘limlarga bo‘linadi?",
+    javob: [
+      {
+        matn: "Matematika o‘qitishning umumiy metodikasi",
+        correct: false,
+      },
+      {
+        matn: "Matematika o‘qitishning maxsus metodikasi",
+        correct: false,
+      },
+      {
+        matn: "Matematika o‘qitishning aniq metodikasi",
+        correct: false,
+      },
+      {
+        matn: "Barchasi to’g’ri",
+        correct: true,
+      },
+    ],
+  },
+  {
+    id: 181,
+    savol: "1-sinf o‘quvchilarining bilimlarini aniqlash va tenglashtirish vazifasi nima orqali amalga oshiriladi?",
+    javob: [
+      {
+        matn: "O‘qituvchi ma’lum tartibda o‘quvchilar bilimini maxsus daftarga hisobga olib boradi",
+        correct: true,
+      },
+      {
+        matn: "O‘qituvchi o‘quvchilar ota onasini yordamga chaqiradi",
+        correct: false,
+      },
+      {
+        matn: "Testlar asosida",
+        correct: false,
+      },
+      {
+        matn: "Yozma ish asosida",
+        correct: false,
+      },
+    ],
+  },
+   {
+    id: 182,
+    savol: "Matematika o‘qitish vositalariga:",
+    javob: [
+      { matn: "darsliklar va qo‘llanmalar", correct: false },
+      { matn: "ko‘rsatmali qo‘llanmalar", correct: false },
+      { matn: "o‘qitishning texnik vositalari (O’TV) kiradi", correct: false },
+      { matn: "Barchasi kiradi", correct: true },
+    ],
+  },
+  {
+    id: 183,
+    savol:
+      "..... asosiy xususiyati shundaki, u dastur talabini ochishi, uni konkretlashtirishi, dasturda ko‘rsatilgan savollar qanday darajada qaralishini o‘zida aks ettirishi kerak.",
+    javob: [
+      { matn: "Darslikning", correct: true },
+      { matn: "Badiiy kitob", correct: false },
+      { matn: "DTS", correct: false },
+      { matn: "Uslubiy qo’llanmalar", correct: false },
+    ],
+  },
+  {
+    id: 184,
+    savol:
+      "Matematika fanining ta'limiy maqsadi o‘qituvchidan nimalarni talab qiladi?",
+    javob: [
+      {
+        matn:
+          "o‘quvchilarga matematik bilimlar tizimidan, bilim, malaka ko‘nikma berish, haqiqiy olamni matematik metodlar bilan o‘rganish",
+        correct: false,
+      },
+      {
+        matn:
+          "o‘quvchilarning og‘zaki va yozma nutqlarini o‘stirishni, uning sifatli bo‘lishini ta'minlash",
+        correct: false,
+      },
+      {
+        matn:
+          "o‘quvchilarga matematikadan shunday bilimlar berishni ta'minlashi kerakki, bu bilimlar orqali, faol bilish faoliyati orqali, bilim, malaka, ko‘nikmalari ortib borsin",
+        correct: false,
+      },
+      {
+        matn: "Barcha javoblar to’g’ri",
+        correct: true,
+      },
+    ],
+  },
+  {
+    id: 185,
+    savol:
+      "..... qisqa muddat ichida hajmi bo‘yicha eng ko‘p ma'lumotlarni berish, o‘quvchilar oldiga muammolar qo‘yish, ularni hal qilish yo‘llarini ko‘rsatish imkonini beradi.",
+    javob: [
+      { matn: "Barcha metodlar", correct: false },
+      { matn: "Og‘zaki metod", correct: true },
+      { matn: "Ko‘rsatmali metod", correct: false },
+      { matn: "Amaliy metodlar", correct: false },
+    ],
+  },
+  {
+    id: 186,
+    savol:
+      "..... o‘quvchilarga kuzatishlar asosida bilimlar olish imkonini beradi. Kuzatish hissiy tafakkurning faol shaklidir.",
+    javob: [
+      { matn: "Barcha metodlar", correct: false },
+      { matn: "Og‘zaki metod", correct: false },
+      { matn: "Ko‘rsatmali metod", correct: true },
+      { matn: "Amaliy metodlar", correct: false },
+    ],
+  },
+  {
+    id: 187,
+    savol:
+      "Malaka va ko‘nikmalarni shakllantirish va mukammalashtirish jarayoni bilan bog‘liq bo‘lgan metodlar o‘qitishning ... hisoblanadi",
+    javob: [
+      { matn: "Barcha metodlar", correct: false },
+      { matn: "Og‘zaki metod", correct: false },
+      { matn: "Ko‘rsatmali metod", correct: false },
+      { matn: "Amaliy metodlar", correct: true },
+    ],
+  },
+  {
+    id: 188,
+    savol:
+      ".... deb biror amalni, shu amalni o‘zlashtirish yoki mustahkamlash maqsadida rejali ravishda tashkil qilingan takroriy bajarishga aytiladi.",
+    javob: [
+      { matn: "misol", correct: false },
+      { matn: "mashq", correct: true },
+      { matn: "masala", correct: false },
+      { matn: "jadval", correct: false },
+    ],
+  },
+  {
+    id: 189,
+    savol: "Matematika darslarida o’quvchilar bilimlari qanday aniqlanadi?",
+    javob: [
+      { matn: "Og’zaki va yozma", correct: true },
+      { matn: "Faqat og’zaki", correct: false },
+      { matn: "Faqat yozma", correct: false },
+      { matn: "Test", correct: false },
+    ],
+  },
+  {
+    id: 190,
+    savol:
+      "Uy ishlarini berishda quyidagi fikrlarning qaysi biri to’g’ri?",
+    javob: [
+      { matn: "1,2,3", correct: false },
+      { matn: "1,3,5", correct: false },
+      { matn: "2,4,5,6", correct: false },
+      { matn: "Hammasi to’g’ri", correct: true },
+    ],
+  },
+  {
+    id: 191,
+    savol: "(5-3)+2 bu ifoda qanday nomlanadi?",
+    javob: [
+      { matn: "Qo’shish", correct: false },
+      { matn: "Ayirish", correct: false },
+      { matn: "Ayirmaga sonni qo’shish", correct: true },
+      { matn: "Yig’indi", correct: false },
+    ],
+  },
+  {
+    id: 192,
+    savol:
+      "Oz komplektli maktablarda matematika darslari qanday tashkil qilinadi?",
+    javob: [
+      {
+        matn:
+          "Darsning 1/3 qismida o’quvchilar mustaqil ishlashiga to’g’ri keladi",
+        correct: true,
+      },
+      {
+        matn:
+          "Darsning 1/2 qismida o’quvchilar mustaqil ishlashiga to’g’ri keladi",
+        correct: false,
+      },
+      {
+        matn:
+          "Oddiy maktablarniki kabi bosqichlar ketma-ketligiga amal qilinadi",
+        correct: false,
+      },
+      {
+        matn: "Hamma sinfga bir xil mavzu o’tiladi",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 193,
+    savol:
+      "AB kesma orasida 5 ta N, M, L, S, T nuqtalar qo’yilgan. Shu nuqtalar orqali nechta kesma hosil qilish mumkin?",
+    javob: [
+      { matn: "30", correct: false },
+      { matn: "5", correct: false },
+      { matn: "15", correct: true },
+      { matn: "7", correct: false },
+    ],
+  },
+  {
+    id: 194,
+    savol: "Kompetensiya — ...",
+    javob: [
+      { matn: "bilim", correct: false },
+      { matn: "ko‘nikma va malaka", correct: false },
+      { matn: "shaxsiy sifatlar majmui", correct: false },
+      {
+        matn:
+          "bilim, ko‘nikma, malaka va shaxsiy sifatlar majmui",
+        correct: true,
+      },
+    ],
+  },
+  {
+    id: 195,
+    savol:
+      "..... deganda ta’lim oluvchilarni faollashtiruvchi va mustaqil fikrlashga undovchi, ta’lim jarayonining markazida ta’lim oluvchi bo’lgan metodlar tushuniladi.",
+    javob: [
+      { matn: "Darslik", correct: false },
+      { matn: "Interfaol metodlar", correct: true },
+      { matn: "O’quv reja", correct: false },
+      { matn: "O’quv qo’llanma", correct: false },
+    ],
+  },
+  {
+    id: 196,
+    savol:
+      "“T-jadval” interfaol grafik organayzerni qaysi dars turida qo’llash maqsadga muvofiq?",
+    javob: [
+      { matn: "Ma’ruza mashg’ulotlarida", correct: true },
+      { matn: "Seminar mashg’ulotlarida", correct: false },
+      { matn: "Amaliy mashg’ulotlarda", correct: false },
+      { matn: "Mustaqil ta’limda", correct: false },
+    ],
+  },
+  {
+    id: 197,
+    savol:
+      "1 + m < 14 tengsizlikni yechimi bo’ladigan nechta ikki xonali natural son bor?",
+    javob: [
+      { matn: "12 ta", correct: false },
+      { matn: "2 ta", correct: false },
+      { matn: "3 ta", correct: true },
+      { matn: "4 ta", correct: false },
+    ],
+  },
+  {
+    id: 198,
+    savol:
+      "256 598 102 sonining 10 dan birlar xonasida qaysi raqam turibdi?",
+    javob: [
+      { matn: "2", correct: false },
+      { matn: "0", correct: true },
+      { matn: "8", correct: false },
+      { matn: "10", correct: false },
+    ],
+  },
+  {
+    id: 199,
+    savol: "3 ga bo’linish qoidasini ayting.",
+    javob: [
+      {
+        matn:
+          "Raqamlar yig’indisi 3 ga bo’lingan son 3 ga bo’linadi",
+        correct: true,
+      },
+      {
+        matn:
+          "Oxirgi raqam 3 ga bo’lingan son 3 ga bo’linadi",
+        correct: false,
+      },
+      {
+        matn:
+          "Oxirgi ikki raqami 3 ga bo’lingan son 3 ga bo’linadi",
+        correct: false,
+      },
+      {
+        matn: "Bunday qoida mavjud emas",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 200,
+    savol:
+      "Kesma uzunligi tushunchasi dastlab o’quvchilarga qay tarzda tushuntiriladi?",
+    javob: [
+      { matn: "Lineyka bilan o’lchash orqali", correct: false },
+      { matn: "Metrlab o’lchash orqali", correct: false },
+      { matn: "Sm lab o’lchash orqali", correct: false },
+      {
+        matn:
+          "Predmetlarni uzunligi bo’yicha taqqoslash asosida kiritiladi",
+        correct: true,
+      },
+    ],
+  },
+  {
+    id: 201,
+    savol: "34 ta yuzlik nechta birlikdan iborat?",
+    javob: [
+      { matn: "340", correct: false },
+      { matn: "34000", correct: false },
+      { matn: "3400", correct: true },
+      { matn: "340000", correct: false },
+    ],
+  },
+  {
+    id: 202,
+    savol: "Kabisa yili nechta kun?",
+    javob: [
+      { matn: "365", correct: false },
+      { matn: "363", correct: false },
+      { matn: "367", correct: false },
+      { matn: "366", correct: true },
+    ],
+  },
+  {
+    id: 203,
+    savol:
+      "Katta tanaffus 30 minut davom etdi, kirishga 11:45 da qo’ng’iroq chalindi. Katta tanaffusga chiqish qachon bo’lgan?",
+    javob: [
+      { matn: "11:15", correct: true },
+      { matn: "12:15", correct: false },
+      { matn: "12:00", correct: false },
+      { matn: "12:15", correct: false },
+    ],
+  },
+  {
+    id: 204,
+    savol:
+      "Xalqaro sistemada asosiy birlik qilib qanday vaqt birligi olingan?",
+    javob: [
+      { matn: "Soat", correct: false },
+      { matn: "Sekund", correct: true },
+      { matn: "Minut", correct: false },
+      { matn: "Millisekund", correct: false },
+    ],
+  },
+  {
+    id: 205,
+    savol: ' ',
+    img: "205.png",
+    javob: [
+      {
+        matn: 'A',
+        correct: false ,
+      },
+      {
+        matn: 'B',
+        correct: false,
+      },
+      {
+        matn: 'C',
+        correct: true,
+      },
+      {
+        matn: 'D',
+        correct: false,
+      }
+    ]
+  },
+
   
 ]

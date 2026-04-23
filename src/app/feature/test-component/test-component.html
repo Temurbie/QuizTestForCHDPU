@@ -7,6 +7,11 @@
       <p class="text-lg text-gray-600">
         Siz {{score()}} / {{total()}} to‘g‘ri topdingiz
       </p>
+           <button
+        (click)="returnTest()"
+        class="w-full py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700">
+        Testni Qayta boshlash
+      </button>
     </div>
   }
 
@@ -24,7 +29,7 @@
       <div class="border-b pb-3 sm:pb-4">
         <h3 class="text-lg sm:text-xl font-semibold text-gray-800">
           {{test.savol}}
-          {{test.img}}
+          <img src="{{test.img}}" alt="IMG">
         </h3>
       </div>
 
@@ -61,7 +66,11 @@
         class="w-full py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700">
         Keyingi
       </button>
-
+      <button
+        (click)="returnTest()"
+        class="w-full py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700">
+        Testni Qayta boshlash
+      </button>
     </div>
   }
 

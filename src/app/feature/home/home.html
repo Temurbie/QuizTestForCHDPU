@@ -1,0 +1,49 @@
+<div class="min-h-screen flex items-center justify-center bg-gray-100 p-4">
+  <div class="w-full max-w-md bg-white rounded-2xl shadow-lg p-6 space-y-6">
+
+    <!-- Header -->
+    <div class="text-center">
+      <h1 class="text-2xl font-bold text-gray-800">Hush kelibsiz, {{userName()}} 👋</h1>
+      <p class="text-gray-500 text-sm mt-1">Testni boshlash uchun sozlamalarni tanlang</p>
+    </div>
+
+    <!-- Test count -->
+    <div>
+      <label class="block text-sm font-medium text-gray-700 mb-2">
+        Test sonini tanlang
+      </label>
+      <div class="flex gap-3">
+        <button class="flex-1 py-2 rounded-xl border border-gray-300 hover:bg-blue-50 hover:border-blue-500 transition">
+          30 ta
+        </button>
+        <button class="flex-1 py-2 rounded-xl border border-gray-300 hover:bg-blue-50 hover:border-blue-500 transition" (click)="setQ(50)">
+          50 ta
+        </button>
+      </div>
+    </div>
+
+    <!-- Time -->
+    <div>
+      <label class="block text-sm font-medium text-gray-700 mb-2">
+        Test vaqtini tanlang
+      </label>
+      <div class="flex gap-3">
+        <button class="flex-1 py-2 rounded-xl border border-gray-300 hover:bg-green-50 hover:border-green-500 transition">
+          30 sekund
+        </button>
+        <button class="flex-1 py-2 rounded-xl border border-gray-300 hover:bg-green-50 hover:border-green-500 transition" (click)="setTime(50)">
+          50 sekund
+        </button>
+      </div>
+    </div>
+
+    <!-- Start button -->
+    <div>
+      <button class="w-full py-3 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-700 transition shadow"
+      (click)="startTest()">
+        Testni boshlash 🚀
+      </button>
+    </div>
+
+  </div>
+</div>
