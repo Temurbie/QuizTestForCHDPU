@@ -5474,5 +5474,996 @@ export const DATATEST : ITest[] = [
       { matn: "Zardushtiylarning quyosh tangrisi «Chuy momo» sharafiga", correct: false },
     ],
   },
-  
+  // mu tugadi
+  {
+    id: 303,
+    savol: "Davlat ta’lim standarti qanday qonun hujjatlari asosida ishlab chiqilgan?",
+    javob: [
+      { matn: "O‘zbekiston Respublikasi Konstitutsiyasi", correct: false },
+      { matn: "“Ta’lim to‘g‘risida”gi O‘zbekiston Respublikasi Qonuni", correct: false },
+      { matn: "O‘zbekiston Respublikasi Vazirlar Mahkamasining qarori", correct: false },
+      { matn: "Barcha javoblar to’g’ri", correct: true },
+    ],
+  },
+  {
+    id: 304,
+    savol: "Davlat ta’lim standartining tarkibiy qismlari qaysilar?",
+    javob: [
+      { matn: "Umumiy o‘rta ta’limning tayanch o‘quv rejasi", correct: false },
+      { matn: "Umumiy o‘rta ta’limning o‘quv dasturi", correct: false },
+      { matn: "Umumiy o‘rta ta’limning malaka talablari; baholash tizimi", correct: false },
+      { matn: "Barcha javoblar to’g’ri", correct: true },
+    ],
+  },
+  {
+    id: 305,
+    savol: "Umumiy o‘rta ta’lim sifatini nazorat qilish turlari qaysi?",
+    javob: [
+      { matn: "Ichki va tashqi nazorat", correct: false },
+      { matn: "Ichki nazorat, tashqi nazorat, jamoatchilik nazorati, milliy va xalqaro darajada baholash", correct: true },
+      { matn: "Davlat-jamoatchilik nazorati", correct: false },
+      { matn: "Milliy va xalqaro darajada baholash", correct: false },
+    ],
+  },
+  {
+    id: 306,
+    savol: "Umumiy o‘rta ta’lim muassasalarida ona tili fanini o‘qitish darajalari nechta?",
+    javob: [
+      { matn: "2", correct: false },
+      { matn: "4", correct: false },
+      { matn: "6", correct: true },
+      { matn: "8", correct: false },
+    ],
+  },
+  {
+    id: 307,
+    savol: "Nutqiy kompetensiya bu…",
+    javob: [
+      { matn: "Tinglab tushunish, so‘zlash, o‘qish, yozish", correct: true },
+      { matn: "Qayta hikoya qilish, yozma qayta hikoya qilish", correct: false },
+      { matn: "Tinglab tushunish, o’qib tushunish", correct: false },
+      { matn: "So‘zlash, o‘qish, yozish", correct: false },
+    ],
+  },
+  {
+    id: 308,
+    savol: "Umumiy o‘rta ta’lim muassasalarida Ona tili fanini o‘qitishning asosiy vazifasi:",
+    javob: [
+      { matn: "Nutqiy kompetensiyani rivojlantirish", correct: false },
+      { matn: "Lingvistik bilimlarni rivojlantirish", correct: false },
+      { matn: "To‘g‘ri va ravon bayon eta olishni rivojlantirish", correct: false },
+      { matn: "Barcha javoblar to’g’ri", correct: true },
+    ],
+  },
+  {
+    id: 309,
+    savol: "Ona tili fani bo‘yicha 4-sinf bitiruvchilariga (A1 daraja) qo‘yilgan malaka talablari?",
+    javob: [
+      { matn: "Sodda matnlarni tinglab tushuna oladi, matnni tushunib o‘qiy oladi", correct: true },
+      { matn: "Murakkab matnlarni tinglab tushuna oladi", correct: false },
+      { matn: "Sodda gaplarni tinglab tushuna oladi", correct: false },
+      { matn: "So‘zlar talaffuziga rioya qila oladi", correct: false },
+    ],
+  },
+  {
+    id: 310,
+    savol: "Ona tili fani bo‘yicha 4-sinf bitiruvchilari nechta so‘zdan iborat diktant yoza oladi?",
+    javob: [
+      { matn: "25 - 30 so‘z", correct: false },
+      { matn: "65 - 70 so‘z", correct: true },
+      { matn: "45 - 50 so‘z", correct: false },
+      { matn: "75 - 80 so‘z", correct: false },
+    ],
+  },
+  {
+    id: 311,
+    savol: "A1 daraja talablariga ko’ra o’quvchilar imlo va tinish belgilarini ishlatish qoidalariga amal qila oladimi?",
+    javob: [
+      { matn: "Qisman amal qiladi", correct: false },
+      { matn: "Faqat imlo qoidalariga amal qiladi", correct: false },
+      { matn: "Imlo va tinish belgilarini ishlatish qoidalariga amal qila oladi", correct: true },
+      { matn: "Amal qila olmaydi", correct: false },
+    ],
+  },
+  {
+    id: 312,
+    savol: "Lingvistik kompetensiya bu…",
+    javob: [
+      { matn: "Fonetika, grafika, orfoepiya, orfografiya, leksika, grammatika va uslubiyat", correct: true },
+      { matn: "Leksika, grammatika va uslubiyat", correct: false },
+      { matn: "Fonetika, grafika, orfoepiya, orfografiya", correct: false },
+      { matn: "To’g’ri javob berilmagan", correct: false },
+    ],
+  },
+  {
+    id: 313,
+    savol: "4-sinf bitiruvchilari…",
+    javob: [
+      { matn: "ona tilidagi nutq tovushlarini farqlay oladi, bo‘g‘in ko‘chirish qoidalariga amal qila oladi", correct: false },
+      { matn: "mavzuga oid yangi so‘zlarni og‘zaki va yozma nutqda qo‘llay oladi", correct: false },
+      { matn: "yozma nutqda tinish belgilarini to‘g‘ri qo‘llay oladi", correct: false },
+      { matn: "barchasi to’g’ri", correct: true },
+    ],
+  },
+  {
+    id: 314,
+    savol: "Noto’g’ri javobni aniqlang. A1 daraja talablariga ko’ra boshlang’ich sinf bitiruvchilari…",
+    javob: [
+      { matn: "ona tilidagi nutq tovushlarini farqlay oladi", correct: false },
+      { matn: "bo‘g‘in ko‘chirish qoidalariga amal qila olmaydi", correct: true },
+      { matn: "mavzuga oid yangi so‘zlarni og‘zaki va yozma nutqda qo‘llay oladi", correct: false },
+      { matn: "yozma nutqda tinish belgilarini to‘g‘ri qo‘llay oladi", correct: false },
+    ],
+  },
+  {
+    id: 315,
+    savol: "To’g’ri javobni aniqlang. A1 daraja talablariga ko’ra boshlang’ich sinf bitiruvchilari…",
+    javob: [
+      { matn: "ona tilidagi nutq tovushlarini farqlay oladi", correct: true },
+      { matn: "bo‘g‘in ko‘chirish qoidalariga amal qila olmaydi", correct: false },
+      { matn: "mavzuga oid yangi so‘zlarni faqat og‘zaki nutqda qo‘llay oladi", correct: false },
+      { matn: "yozma nutqda tinish belgilarini qo‘llay olmaydi", correct: false },
+    ],
+  },
+  {
+    id: 316,
+    savol: "Savod o’rgatish mashqlarining turlari qaysi javobda berilgan?",
+    javob: [
+      { matn: "To’g’ri va burro talaffuz mashqlari", correct: false },
+      { matn: "Analiz mashqlari, sintez mashqlari, artikulyatsiya va burro talaffuz mashqlari", correct: true },
+      { matn: "Matnni gaplarga ajratish mashqlari, bo’g’inlarni tovushlarga ajratish mashqlari", correct: false },
+      { matn: "Tovush-harf tahlili mashqlari", correct: false },
+    ],
+  },
+  {
+    id: 317,
+    savol: "O’qish turlari berilgan qatorni aniqlang?",
+    javob: [
+      { matn: "Ovozli o’qish,baqirib o’qish", correct: false },
+      { matn: "Ovozli o’qish,ichida o’qish,shivirlab o’qish", correct: true },
+      { matn: "baqirib o’qish , shivirlab o’qish,pichirlab o’qish", correct: false },
+      { matn: "Barchasi to’g’ri", correct: false },
+    ],
+  },
+  {
+    id: 318,
+    savol: "O’qish va yozuv malakasi...",
+    javob: [
+      { matn: "tilga oid malaka", correct: false },
+      { matn: "nutqqa oid malaka", correct: true },
+      { matn: "til va nutqqa oid malaka", correct: false },
+      { matn: "ichki va tashqi nutqqa oid malaka", correct: false },
+    ],
+  },
+  {
+    id: 319,
+    savol: "Alifbo davri qanchagacha davom etadi?",
+    javob: [
+      { matn: "31-dekabrgacha", correct: true },
+      { matn: "31-yanvargacha", correct: false },
+      { matn: "Noyabrgacha", correct: false },
+      { matn: "Martgacha", correct: false },
+    ],
+  },
+  {
+    id: 320,
+    savol: "1-sinfda husnixat predmeti qachondan boshlanadi?",
+    javob: [
+      { matn: "3-yarim yillik", correct: false },
+      { matn: "1-chorak", correct: false },
+      { matn: "Yil boshida", correct: false },
+      { matn: "2- yarim yillik", correct: true },
+    ],
+  },
+  {
+    id: 321,
+    savol: "Yozuv jarayonida ruchkaning uchidan ko’zgacha bo’lgan masofa qancha bo’lishi kerak?",
+    javob: [
+      { matn: "20-25", correct: false },
+      { matn: "25-30", correct: true },
+      { matn: "30-35", correct: false },
+      { matn: "35-40", correct: false },
+    ],
+  },
+  {
+    id: 322,
+    savol: "«O‘zbek tili»ning maktabda o‘quv predmeti sifatida shakllanish va rivojlanish jarayoni nechta davrga bo’linadi?",
+    javob: [
+      { matn: "2", correct: false },
+      { matn: "3", correct: false },
+      { matn: "4", correct: false },
+      { matn: "5", correct: true },
+    ],
+  },
+  {
+    id: 323,
+    savol: "“Lotin yozuviga asoslangan o'zbek alifbosini joriy etish to'g'risida”gi qonun qachon qabul qilindi?",
+    javob: [
+      { matn: "1993-yil 2-sentyabr", correct: true },
+      { matn: "1996-yil 2-sentyabr", correct: false },
+      { matn: "1991-yil 31-avgust", correct: false },
+      { matn: "1989-yil 21-oktyabr", correct: false },
+    ],
+  },
+  {
+    id: 324,
+    savol: "Savod o’rgatishning asosiy metodi ko’rsatilgan javobni belgilang.",
+    javob: [
+      { matn: "Suhbat metodi", correct: false },
+      { matn: "Muammoli yarim izlanish metodi", correct: false },
+      { matn: "Analitik-sintetik tovush metodi", correct: true },
+      { matn: "Suhbat va tushuntirish metodi", correct: false },
+    ],
+  },
+  {
+    id: 325,
+    savol: "Analitik-sintetik tovush metodida psixologo-lingvistik nuqtai nazardan nimalarga ahamiyat beriladi?",
+    javob: [
+      { matn: "O’qish va yozishni bila olishi, ifodali o’qishi", correct: false },
+      { matn: "Fonematik eshitish, tovushlarni to’g’ri talaffuz qilish, analiz va sintez mashqlari", correct: true },
+      { matn: "Nutq malakasi va osonlik tamoyili", correct: false },
+      { matn: "Xotira va harflarni taniy olish", correct: false },
+    ],
+  },
+  {
+    id: 326,
+    savol: "Savod o’rgatishning analitik-sintetik tovush metodi tashkiliy tomondan qanday davrlarga bo’linadi?",
+    javob: [
+      { matn: "Yakka tartibda olib boriladi", correct: false },
+      { matn: "3 davrga bo’linadi", correct: false },
+      { matn: "2 davrga bo’linadi: alifbegacha tayyorgarlik va alifbe davri, yozuv va o’qish parallel", correct: true },
+      { matn: "3 bosqichga bo’linadi (harf-tovush, unli, alifbo)", correct: false },
+    ],
+  },
+  {
+    id: 327,
+    savol: "Boshlang’ich sinflarda savod o’rgatish mashqlarining turlari qaysilar?",
+    javob: [
+      { matn: "To’g’ri va burro talaffuz mashqlari", correct: false },
+      { matn: "Analiz mashqlari, sintez mashqlari, artikulyatsiya va burro talaffuz mashqlari", correct: true },
+      { matn: "Matnni gaplarga ajratish mashqlari, bo’g’inlarni tovushlarga ajratish mashqlari", correct: false },
+      { matn: "Tovush-harf tahlili mashqlari", correct: false },
+    ],
+  },
+  {
+    id: 328,
+    savol: "Savod o’rgatish jarayonida o’quvchilar amaliy o’zlashtiradigan bilimlar tizimi berilgan javobni belgilang.",
+    javob: [
+      { matn: "To’g’ri yozuvga o’rgatuvchi imloviy bilimlarni amaliy o’zlashtiradilar", correct: true },
+      { matn: "So’zlarni ajratib va qo’shib yozishni, chiziqcha bilan yozishni o’zlashtiradilar", correct: false },
+      { matn: "Grammatika va imlodan ayrim materiallarni amaliy o’zlashtiradilar", correct: false },
+      { matn: "So’zlarni, gaplarni, matnni orfoepik to’g’ri o’qiy olishi", correct: false },
+    ],
+  },
+  {
+    id: 329,
+    savol: "Izohli o’qish metodiga kim asos solgan?",
+    javob: [
+      { matn: "Suhomliminskiy", correct: false },
+      { matn: "Yegorv", correct: false },
+      { matn: "Ushinskiy", correct: true },
+      { matn: "Zuyev", correct: false },
+    ],
+  },
+  {
+    id: 330,
+    savol: "Hozirgi maktablarda o’qish qaysi metodda olib borilyapti?",
+    javob: [
+      { matn: "izohli", correct: true },
+      { matn: "ijodiy", correct: false },
+      { matn: "amaliy", correct: false },
+      { matn: "reproduktiv", correct: false },
+    ],
+  },
+  {
+    id: 331,
+    savol: "Izohli o’qish o’quvchilarga real bilim berish vositasi deb kimlar aytgan?",
+    javob: [
+      { matn: "Korf va Vaxterev", correct: true },
+      { matn: "Vodovozov va Ushinskiy", correct: false },
+      { matn: "Yegorv", correct: false },
+      { matn: "Zunnunov", correct: false },
+    ],
+  },
+  {
+    id: 332,
+    savol: "Boshlang’ich sinflarda Alifbo davri qanchagacha davom etadi?",
+    javob: [
+      { matn: "31-dekabrgacha", correct: true },
+      { matn: "31-yanvargacha", correct: false },
+      { matn: "noyabrgacha", correct: false },
+      { matn: "martgacha", correct: false },
+    ],
+  },
+  {
+    id: 333,
+    savol: "Til qanday hodisa?",
+    javob: [
+      { matn: "Murakkab hodisa", correct: false },
+      { matn: "Til qotib qolgan", correct: false },
+      { matn: "Ijtimoiy, doim o`zgarib, rivojlanib turuvchi", correct: true },
+      { matn: "Til bo`linuvchi", correct: false },
+    ],
+  },
+  {
+    id: 334,
+    savol: "Intonatsiya – bu… ?",
+    javob: [
+      { matn: "ohang", correct: false },
+      { matn: "pauza", correct: false },
+      { matn: "to`xtam", correct: true },
+      { matn: "talaffuz", correct: false },
+    ],
+  },
+  {
+    id: 335,
+    savol: "2-sinf o`quvchilari DTS talabi bo`yicha 1 DAQIQADAda nechta so`z o`qishi kerak?",
+    javob: [
+      { matn: "40-50 so`z", correct: false },
+      { matn: "55-60 so`z", correct: true },
+      { matn: "35-45 so`z", correct: false },
+      { matn: "45-50 so`z", correct: false },
+    ],
+  },
+  {
+    id: 336,
+    savol: "Analitik-sintetik (tahlil-tarkib) tovush metodida savod o'rgatish jarayoni davom etadi.",
+    javob: [
+      { matn: "3 oy", correct: false },
+      { matn: "4 oy", correct: true },
+      { matn: "5 oy", correct: false },
+      { matn: "6 oy", correct: false },
+    ],
+  },
+  {
+    id: 337,
+    savol: "Savod o’rgatish jarayonining davrlarini aniqlang",
+    javob: [
+      { matn: "Alifbogacha tayyorgarlik davri, Alifbo davri", correct: true },
+      { matn: "Maktabgacha tayyorlov davri, Alifbogacha tayyorgarlik davri, Alifbo davri", correct: false },
+      { matn: "Maktabgacha tayyorlov davri, Alifbogacha tayyorgarlik davri", correct: false },
+      { matn: "barcha javob to’g’ri", correct: false },
+    ],
+  },
+  {
+    id: 338,
+    savol: "Alifbogacha tayyorgarlik davrining maqsad va vazifalarini aniqlang.",
+    javob: [
+      { matn: "o'quvchilarni maktab, sinf, tartib-intizom qoidalari bilan tanishtirish", correct: false },
+      { matn: "o'quv qurollari bilan tanishtirish", correct: false },
+      { matn: "nutq o'stirishga oid mashqlar o'tkazish, fonematik eshitishni o'stirish", correct: false },
+      { matn: "barcha javob to’g’ri", correct: true },
+    ],
+  },
+  {
+    id: 339,
+    savol: "Alifbogacha tayyorgarlik davri necha bosqichdan iborat?",
+    javob: [
+      { matn: "1", correct: false },
+      { matn: "2", correct: true },
+      { matn: "3", correct: false },
+      { matn: "4", correct: false },
+    ],
+  },
+  {
+    id: 340,
+    savol: "Alifbogacha tayyorgarlik davri qancha muddat davom etadi?",
+    javob: [
+      { matn: "2 hafta", correct: true },
+      { matn: "4 hafta", correct: false },
+      { matn: "6 hafta", correct: false },
+      { matn: "8 hafta", correct: false },
+    ],
+  },
+  {
+    id: 341,
+    savol: "Alifbogacha tayyorgarlik davri bosqichlarini aniqlang.",
+    javob: [
+      { matn: "Harf o'rganilmaydigan bosqich (1 hafta), unli tovush va harf о 'rganiladigan bosqich (1 hafta)", correct: true },
+      { matn: "Harf o'rganiladigan bosqich (1 hafta), unli va undosh tovush о 'rganiladigan bosqich (1 hafta)", correct: false },
+      { matn: "Harf o'rganilmaydigan bosqich (2 hafta)", correct: false },
+      { matn: "Unli tovush va harf о 'rganiladigan bosqich (2 hafta)", correct: false },
+    ],
+  },
+  {
+    id: 342,
+    savol: "2-sinf Ona tili va o’qish savodxonligi darsligidan o’rin olgan “Chumolining jasorati” matni muallifini aniqlang.",
+    javob: [
+      { matn: "Anvar Obidjon", correct: false },
+      { matn: "Sa’dulla Quronov", correct: true },
+      { matn: "Shirin G’ofurova", correct: false },
+      { matn: "Muhabbat Hamidova", correct: false },
+    ],
+  },
+  {
+    id: 343,
+    savol: "O’qish va yozuv darslariga qo’yiladigan maxsus metodik talablar:",
+    javob: [
+      { matn: "Nutqning ifodali, obrazli, aniq, mantiqiy to’g’ri bo’lishi, yozuvning mazmunli va savodli bo’lishi", correct: true },
+      { matn: "Dars tarbiyalovchi xarakterda bo’lishi", correct: false },
+      { matn: "Hammasi to’g’ri", correct: false },
+      { matn: "O’rganiladigan mavzularning ilmiyligiga rioya qilish", correct: false },
+    ],
+  },
+  {
+    id: 344,
+    savol: "Yozuvga o’rgatish jarayonida ruchkaning uchi bilan barmoq oralig’i necha sm bo’ladi?",
+    javob: [
+      { matn: "2sm", correct: false },
+      { matn: "1.5sm", correct: true },
+      { matn: "1,5-2sm", correct: false },
+      { matn: "3sm", correct: false },
+    ],
+  },
+  {
+    id: 345,
+    savol: "Yozish vaqtida daftar parta ustiga necha gradus qiyalikda qo’yiladi?",
+    javob: [
+      { matn: "25", correct: true },
+      { matn: "35", correct: false },
+      { matn: "45", correct: false },
+      { matn: "60", correct: false },
+    ],
+  },
+  {
+    id: 346,
+    savol: "Xato o’qishning kelib chiqish sabablari qaysi javobda berilgan?",
+    javob: [
+      { matn: "Ichda o’qish tufayli", correct: false },
+      { matn: "Ovoz chiqarib o’qish tufayli", correct: false },
+      { matn: "Tez o’qiyman deb va so’z ma’nosini tushunmaslik sababli xato o’qiydilar", correct: true },
+      { matn: "Yomon o’qiydigan o’quvchilar xato o’qiydilar", correct: false },
+    ],
+  },
+  {
+    id: 347,
+    savol: "Ongli o’qishni ta’minlovchi metodik shartlarni aniqlang.",
+    javob: [
+      { matn: "O’quvchining hayotiy tajribasi va so’z ma’nosini tushunishi", correct: true },
+      { matn: "Asarning badiiy vositalariga bog’lik", correct: false },
+      { matn: "Ifodali o’qishga bog’lik", correct: false },
+      { matn: "Asarning mazmuniga va g’oyaviy yo’nalishiga bog’liq", correct: false },
+    ],
+  },
+  {
+    id: 348,
+    savol: "O’quvchilar qachon bir chiziqli dafarga yozishga o’tadilar?",
+    javob: [
+      { matn: "1 sinfda o’quv yilining 2-yarmida", correct: false },
+      { matn: "2-sinf 2-yarim yilligida", correct: true },
+      { matn: "1 sinfda o’quv yilining 1-yarmida", correct: false },
+      { matn: "2-sinfda", correct: false },
+    ],
+  },
+  {
+    id: 349,
+    savol: "Sinfdan tashqari o’qish darslari 1-2-sinflarda 1-haftada necha marta o’tqaziladi?",
+    javob: [
+      { matn: "1 marta", correct: true },
+      { matn: "2 marta", correct: false },
+      { matn: "4 marta", correct: false },
+      { matn: "3 marta", correct: false },
+    ],
+  },
+  {
+    id: 350,
+    savol: "Savod o’rgatish mashqlarining turlari qaysi javobda berilgan?",
+    javob: [
+      { matn: "To’g’ri va burro talaffuz mashqlari", correct: false },
+      { matn: "Analiz mashqlari, sintez mashqlari, artikulyatsiya va burro talaffuz mashqlari", correct: true },
+      { matn: "Matnni gaplarga ajratish mashqlari", correct: false },
+      { matn: "Tovush-harf tahlili mashqlari", correct: false },
+    ],
+  },
+  {
+    id: 351,
+    savol: "Ertak to’g’risida ilk ma’lumot boshlang’ich sinfning qaysi davrida berilgan?",
+    javob: [
+      { matn: "1-sinf", correct: true },
+      { matn: "2-sinf", correct: false },
+      { matn: "3-sinf", correct: false },
+      { matn: "4-sinf", correct: false },
+    ],
+  },
+  {
+    id: 352,
+    savol: "“JONLI SAVATCHA” she’riy ertagining muallifi kim?",
+    javob: [
+      { matn: "Anvar Obidjon", correct: false },
+      { matn: "Sa’dulla Quronov", correct: false },
+      { matn: "Abdurahmon Akbar", correct: true },
+      { matn: "Muhabbat Hamidova", correct: false },
+    ],
+  },
+  {
+    id: 353,
+    savol: "“Xatosini tushungan bola” hikoyasining muallifini belgilang.",
+    javob: [
+      { matn: "X.To’xtaboyev", correct: true },
+      { matn: "Q.Muhammadiy", correct: false },
+      { matn: "Qudrat Hikmat", correct: false },
+      { matn: "F.Musajonov", correct: false },
+    ],
+  },
+  {
+    id: 354,
+    savol: "250 ta so’zli matnni o’qiganda o’quvchi nechta so’zni eslab qoladi?",
+    javob: [
+      { matn: "200ta", correct: true },
+      { matn: "180ta", correct: false },
+      { matn: "150ta", correct: false },
+      { matn: "130ta", correct: false },
+    ],
+  },
+  {
+    id: 355,
+    savol: "Kichik yoshdagi o’quvchilarning adabiy qahramonlarni idrok etish munosabati necha xil bo’ladi?",
+    javob: [
+      { matn: "4 xil", correct: false },
+      { matn: "3 xil", correct: false },
+      { matn: "2 xil", correct: true },
+      { matn: "5 xil", correct: false },
+    ],
+  },
+  {
+    id: 356,
+    savol: "O’quvchi 3-sinfning 1-yarim yilligida nechta so’zni o’qiy olishi kerak?",
+    javob: [
+      { matn: "60-70 so’z", correct: true },
+      { matn: "70-80 so’z", correct: false },
+      { matn: "80-90 so’z", correct: false },
+      { matn: "85-95 so’z", correct: false },
+    ],
+  },
+  {
+    id: 357,
+    savol: "Tahlil maqsadiga ko’ra qanday turlarga bo’linadi?",
+    javob: [
+      { matn: "fiziologik va didaktik", correct: true },
+      { matn: "og’zaki va yozma", correct: false },
+      { matn: "to’g’ri va tez", correct: false },
+      { matn: "t.j. y.", correct: false },
+    ],
+  },
+
+  {
+    id: 358,
+    savol: "Yaxshi o’qish malakalarining sifatlariga qaysilar kiradi?",
+    javob: [
+      { matn: "to’g’ri, tez, ifodali", correct: false },
+      { matn: "to’g’ri, tez, ongli, ifodali", correct: true },
+      { matn: "tez, ifodali", correct: false },
+      { matn: "bo’g’inlab, to’g’ri, ifodali", correct: false },
+    ],
+  },
+  {
+    id: 359,
+    savol: "O’qish malakasining shakllanishi qanday bosqichlarda olib boriladi?",
+    javob: [
+      { matn: "nazariy, amaliy", correct: false },
+      { matn: "analitik, sintetik", correct: false },
+      { matn: "nazariy, sintetik, avtomatlashgan", correct: false },
+      { matn: "analitik, sintetik, avtomatlashgan", correct: true },
+    ],
+  },
+  {
+    id: 360,
+    savol: "Izohli o’qishga kim qachon asos slogan?",
+    javob: [
+      { matn: "xx asrning 50-60-yillarida Yegorov", correct: false },
+      { matn: "xx asrning 60-70-yillarida Ushinskiy", correct: true },
+      { matn: "xx asrning 80-yillarida Suxomlenskiy", correct: false },
+      { matn: "xx asrning 50-60-yillarida Ushinskiy", correct: false },
+    ],
+  },
+  {
+    id: 361,
+    savol: "Qanday o’qish o’qish malakasi sifatlarining asosi hisoblanadi?",
+    javob: [
+      { matn: "to’g’ri o’qish", correct: false },
+      { matn: "tez o’qish", correct: false },
+      { matn: "ongli o’qish", correct: true },
+      { matn: "ifodali o’qish", correct: false },
+    ],
+  },
+  {
+    id: 362,
+    savol: "2-sinfning 1-yarim yilligida matnni o’qish tezligi nechta so’zdan iborat bo’lishi kerak?",
+    javob: [
+      { matn: "35-40", correct: false },
+      { matn: "25-30", correct: false },
+      { matn: "40-50", correct: false },
+      { matn: "30-35", correct: true },
+    ],
+  },
+  {
+    id: 363,
+    savol: "Agar bir daqiqada bola 250 so’zli matnni o’qisa, bola undagi nechta so’zni eslab qoladi?",
+    javob: [
+      { matn: "200", correct: true },
+      { matn: "190", correct: false },
+      { matn: "220", correct: false },
+      { matn: "160", correct: false },
+    ],
+  },
+  {
+    id: 364,
+    savol: "Yozuv jarayonida ruchkaning uchi bilan barmoq oralig’I necha sm bo’ladi?",
+    javob: [
+      { matn: "1.5 sm", correct: false },
+      { matn: "2 sm", correct: false },
+      { matn: "1.5-2 sm", correct: true },
+      { matn: "1 sm", correct: false },
+    ],
+  },
+  {
+    id: 365,
+    savol: "“Yozuvga o’rgatish psixologiyasi” kitobining muallifi kim?",
+    javob: [
+      { matn: "D.A.Pisarevskiy", correct: true },
+      { matn: "D.K.Ushinskiy", correct: false },
+      { matn: "T.G.Yegorov", correct: false },
+      { matn: "E.V.Guryanov", correct: false },
+    ],
+  },
+  {
+    id: 366,
+    savol: "O’quvchi yozayotganda daftar parta ustiga qanday qiyalikda qo’yilishi kerak?",
+    javob: [
+      { matn: "20 gradus", correct: false },
+      { matn: "25 gradus", correct: true },
+      { matn: "30 gradus", correct: false },
+      { matn: "35 gradus", correct: false },
+    ],
+  },
+  {
+    id: 367,
+    savol: "Savod o’rgatishning asosiy metodi ko’rsatilgan javobni belgilang?",
+    javob: [
+      { matn: "suhbat metodi", correct: false },
+      { matn: "analitik-sintetik tovush metodi", correct: true },
+      { matn: "muammoli yarim izlanish metodi", correct: false },
+      { matn: "tushuntirish metodi", correct: false },
+    ],
+  },
+  {
+    id: 368,
+    savol: "O’qish va yozuv darslariga qo’yiladigan talablar:",
+    javob: [
+      { matn: "umumdidaktik va maxsus metodik talablar", correct: true },
+      { matn: "ta’limiy va tarbiyaviy talablar", correct: false },
+      { matn: "fikrlash faoliyatini hisobga olish talablari", correct: false },
+      { matn: "ko’rgazmalilikka o’rgatish talablari", correct: false },
+    ],
+  },
+  {
+    id: 369,
+    savol: "3-va4-sinf o’quvchilarining o’qish malakasi qaysi bosqichga to’g’ri keladi?",
+    javob: [
+      { matn: "bo’g’inlab sidirg’a o’qish", correct: false },
+      { matn: "harflarni qo’shgan holda bo’g’inlab o’qish", correct: false },
+      { matn: "bo’g’inlab o’qish", correct: false },
+      { matn: "sidirg’a o’qish", correct: true },
+    ],
+  },
+  {
+    id: 370,
+    savol: "O’quvchilar sintetik bosqichga qachon o’tadilar?",
+    javob: [
+      { matn: "1 sinfda o’quv yilining 2-yarmida", correct: false },
+      { matn: "3-sinfda", correct: true },
+      { matn: "1 sinfda o’quv yilining 1-yarmida", correct: false },
+      { matn: "2-sinfda", correct: false },
+    ],
+  },
+  {
+    id: 371,
+    savol: "Izohli o’qishga yaqin bo’lgan metodlardan biri?",
+    javob: [
+      { matn: "Ongli o’qish", correct: false },
+      { matn: "Ifodali o’qish", correct: false },
+      { matn: "Tez o’qish", correct: false },
+      { matn: "Ijodiy o’qish", correct: true },
+    ],
+  },
+  {
+    id: 372,
+    savol: "Nechanchi sinfdan keyin o’qish avtomatlashib boradi?",
+    javob: [
+      { matn: "3-sinf", correct: true },
+      { matn: "4 sinf", correct: false },
+      { matn: "1-sinf", correct: false },
+      { matn: "2-sinf", correct: false },
+    ],
+  },
+  {
+    id: 373,
+    savol: "Boshlang’ich ta’limda o’qishning qanday turlaridan foydalaniladi?",
+    javob: [
+      { matn: "Ovozli o’qish, ichda o’qish, shivirlab o’qish", correct: true },
+      { matn: "Ongli o’qish, shivirlab o’qish", correct: false },
+      { matn: "tez o’qish, ongli o’qish", correct: false },
+      { matn: "Tez o’qish, ifodali o’qish", correct: false },
+    ],
+  },
+  {
+    id: 374,
+    savol: "1-2-sinflarda o’qishning qanday turlaridan foydalaniladi?",
+    javob: [
+      { matn: "Ovozli va shivirlab", correct: true },
+      { matn: "Shivirlab, ovozli", correct: false },
+      { matn: "Tez o’qish", correct: false },
+      { matn: "Ijodiy o’qish", correct: false },
+    ],
+  },
+  {
+    id: 375,
+    savol: "O’quvchilar qachon o’zlari o’qigan kichik matnlarga mustaqil reja tuzadigan bo’ladilar?",
+    javob: [
+      { matn: "3-sinf", correct: false },
+      { matn: "4-sinf", correct: true },
+      { matn: "1-sinf", correct: false },
+      { matn: "2-sinf", correct: false },
+    ],
+  },
+  {
+    id: 376,
+    savol: "“Laqma it” masali nechanchi sinf o’qish kitobiga kiritilgan?",
+    javob: [
+      { matn: "3-sinf", correct: false },
+      { matn: "4-sinf", correct: true },
+      { matn: "1-sinf", correct: false },
+      { matn: "2-sinf", correct: false },
+    ],
+  },
+  {
+    id: 377,
+    savol: "Maktablarda nechanchi yildan boshlab sinfdan tashqari o’qish darslari tashkil etilgan?",
+    javob: [
+      { matn: "1959-yildan", correct: true },
+      { matn: "1952-yildan", correct: false },
+      { matn: "1745-yildan", correct: false },
+      { matn: "1965-yildan", correct: false },
+    ],
+  },
+  {
+    id: 378,
+    savol: "Sinfdan tashqari o’qish darslari 1-2-sinflarda 1-haftada necha marta o’tqaziladi?",
+    javob: [
+      { matn: "1 marta", correct: true },
+      { matn: "2 marta", correct: false },
+      { matn: "4 marta", correct: false },
+      { matn: "3 marta", correct: false },
+    ],
+  },
+  {
+    id: 379,
+    savol: "“MAHALLAMIZ JARCHISI” she’ri muallifi kim va qaysi sinf datsligida berilgan?",
+    javob: [
+      { matn: "Omon Matchon, 1-sinf", correct: false },
+      { matn: "Shukur Sa’dulla, 3-sinf", correct: false },
+      { matn: "Anvar Obidjon, 2-sinf", correct: true },
+      { matn: "Abdulla Ahmad, 4-sinf", correct: false },
+    ],
+  },
+  {
+    id: 380,
+    savol: "“MAHALLAMIZ JARCHISI” she’rida jarchi deya qaysi qush tasvirlangan?",
+    javob: [
+      { matn: "Qarg’a", correct: false },
+      { matn: "Laylak", correct: false },
+      { matn: "Hakka", correct: true },
+      { matn: "To’ti", correct: false },
+    ],
+  },
+  {
+    id: 381,
+    savol: "Boshlang’ich sinf Ona tili va o’qish savodxonligi kitobidan joy olgan “Maktabim” she’rining muallifini aniqlang.",
+    javob: [
+      { matn: "Omon Matchon, 1-sinf", correct: false },
+      { matn: "Shukur Sa’dulla, 3-sinf", correct: false },
+      { matn: "Anvar Obidjon, 2-sinf", correct: false },
+      { matn: "Dilrabo Saydullayeva, 2-sinf", correct: true },
+    ],
+  },
+  {
+    id: 382,
+    savol: "“Shippak” hikoyasida qanday illat qalamga olingan?",
+    javob: [
+      { matn: "Yolg’onchilik", correct: false },
+      { matn: "O’g’rilik", correct: false },
+      { matn: "Uyqichilik", correct: true },
+      { matn: "Chaqimchilik", correct: false },
+    ],
+  },
+  {
+    id: 383,
+    savol: "“QANOTLI DO‘STLAR” she’rining muallifi kim?",
+    javob: [
+      { matn: "Quddus Muhammadiy, 2-sinf", correct: true },
+      { matn: "Shukur Sa’dulla, 3-sinf", correct: false },
+      { matn: "Anvar Obidjon, 2-sinf", correct: false },
+      { matn: "Dilrabo Saydullayeva, 2-sinf", correct: false },
+    ],
+  },
+  {
+    id: 384,
+    savol: "So’z turkumlari to’g’risida nazariy ma’lumotlar qaysi sinf darsligida berilgan?",
+    javob: [
+      { matn: "1-sinf", correct: false },
+      { matn: "2-sinf", correct: false },
+      { matn: "3-sinf", correct: false },
+      { matn: "4-sinf", correct: true },
+    ],
+  },
+  {
+    id: 385,
+    savol: "Gap va uning turlari qaysi sinfda o’rganiladi?",
+    javob: [
+      { matn: "1-sinf", correct: false },
+      { matn: "2-sinf", correct: false },
+      { matn: "3-sinf", correct: false },
+      { matn: "4-sinf", correct: true },
+    ],
+  },
+  {
+    id: 386,
+    savol: "Davlat ta’lim standarti qanday qonun hujjatlari asosida ishlab chiqilgan?",
+    javob: [
+      { matn: "O‘zbekiston Respublikasi Konstitutsiyasi", correct: false },
+      { matn: "“Ta’lim to‘g‘risida”gi O‘zbekiston Respublikasi Qonuni", correct: false },
+      { matn: "Vazirlar Mahkamasi qarori", correct: false },
+      { matn: "Barcha javoblar to’g’ri", correct: true },
+    ],
+  },
+  {
+    id: 387,
+    savol: "Davlat ta’lim standartining tarkibiy qismlari qaysilar?",
+    javob: [
+      { matn: "tayanch o‘quv rejasi", correct: false },
+      { matn: "o‘quv dasturi", correct: false },
+      { matn: "malaka talablari va baholash tizimi", correct: false },
+      { matn: "Barcha javoblar to’g’ri", correct: true },
+    ],
+  },
+  {
+    id: 388,
+    savol: "Umumiy o‘rta ta’lim sifatini nazorat qilish turlari qaysi?",
+    javob: [
+      { matn: "ichki va tashqi nazorat", correct: false },
+      { matn: "ichki, tashqi, jamoatchilik, milliy va xalqaro baholash", correct: true },
+      { matn: "davlat-jamoatchilik nazorati", correct: false },
+      { matn: "milliy va xalqaro baholash", correct: false },
+    ],
+  },
+  {
+    id: 389,
+    savol: "Umumiy o‘rta ta’lim muassasalarida ona tili fanini o‘qitish darajalari nechta?",
+    javob: [
+      { matn: "2", correct: false },
+      { matn: "4", correct: false },
+      { matn: "6", correct: true },
+      { matn: "8", correct: false },
+    ],
+  },
+  {
+    id: 390,
+    savol: "Umumiy o‘rta ta’lim muassasalarida ona tili fanini o‘qitish darajalari qaysilar?",
+    javob: [
+      { matn: "A1, B1, C1, D1", correct: false },
+      { matn: "A1, A1+, A2, A2+, B1, B1+", correct: true },
+      { matn: "A1, B1, C1", correct: false },
+      { matn: "To’g’ri javob berilmagan", correct: false },
+    ],
+  },
+  {
+    id: 391,
+    savol: "Umumiy o‘rta ta’lim maktablarining boshlang‘ich 4-sinf bitiruvchilari ona tili fanidan qanday darajaga ega bo’lishlari lozim?",
+    javob: [
+      { matn: "A1", correct: true },
+      { matn: "A2", correct: false },
+      { matn: "B1", correct: false },
+      { matn: "B2", correct: false },
+    ],
+  },
+  {
+    id: 392,
+    savol: "Umumiy o‘rta ta’lim muassasalarida Ona tili fanini o‘qitishning asosiy vazifasi:",
+    javob: [
+      { matn: "nutqiy kompetensiyani rivojlantirish", correct: false },
+      { matn: "lingvistik kompetensiyani shakllantirish", correct: false },
+      { matn: "fikrlash va savodli bayon qilishni rivojlantirish", correct: false },
+      { matn: "barcha javoblar to’g’ri", correct: true },
+    ],
+  },
+  {
+    id: 393,
+    savol: "Ona tili fani bo‘yicha 4-sinf bitiruvchilari (A1 daraja) malaka talablari?",
+    javob: [
+      { matn: "sodda matnlarni tinglab tushuna oladi", correct: true },
+      { matn: "murakkab matnlarni ifodali o’qiy oladi", correct: false },
+      { matn: "sodda gaplarni tinglab tushuna oladi", correct: false },
+      { matn: "so‘zlar talaffuziga rioya qila oladi", correct: false },
+    ],
+  },
+  {
+    id: 394,
+    savol: "Ona tili fani bo‘yicha 4-sinf bitiruvchilari nechta so‘zdan iborat diktant yoza oladi?",
+    javob: [
+      { matn: "25-30", correct: false },
+      { matn: "65-70", correct: true },
+      { matn: "45-50", correct: false },
+      { matn: "75-80", correct: false },
+    ],
+  },
+  {
+    id: 395,
+    savol: "A1 daraja talablariga ko’ra o’quvchilar imlo va tinish belgilariga amal qila oladimi?",
+    javob: [
+      { matn: "qisman", correct: false },
+      { matn: "faqat imlo", correct: false },
+      { matn: "imlo va tinish belgilariga amal qila oladi", correct: true },
+      { matn: "amal qila olmaydi", correct: false },
+    ],
+  },
+  {
+    id: 396,
+    savol: "Lingvistik kompetensiya bu…",
+    javob: [
+      { matn: "fonetika, grafika, orfoepiya, orfografiya, leksika, grammatika va uslubiyat", correct: true },
+      { matn: "leksika va grammatika", correct: false },
+      { matn: "fonetika va grafika", correct: false },
+      { matn: "to’g’ri javob yo’q", correct: false },
+    ],
+  },
+  {
+    id: 397,
+    savol: "4-sinf bitiruvchilari…",
+    javob: [
+      { matn: "nutq tovushlarini farqlay oladi", correct: false },
+      { matn: "yangi so’zlarni qo’llay oladi", correct: false },
+      { matn: "tinish belgilarini to’g’ri qo’llay oladi", correct: false },
+      { matn: "barchasi to’g’ri", correct: true },
+    ],
+  },
+  {
+    id: 398,
+    savol: "Noto’g’ri javobni aniqlang (A1 daraja):",
+    javob: [
+      { matn: "nutq tovushlarini farqlay oladi", correct: false },
+      { matn: "bo‘g‘in ko‘chirish qoidalariga amal qila olmaydi", correct: true },
+      { matn: "yangi so‘zlarni qo‘llay oladi", correct: false },
+      { matn: "tinish belgilarini qo‘llay oladi", correct: false },
+    ],
+  },
+  {
+    id: 399,
+    savol: "4-sinf o’quvchilarining o’qish malakasi qaysi bosqichga to’g’ri keladi?",
+    javob: [
+      { matn: "sidirg’a o’qish", correct: true },
+      { matn: "bo’g’inlab o’qish", correct: false },
+      { matn: "harf o’qish", correct: false },
+      { matn: "bo’g’inlab-sidirg’a", correct: false },
+    ],
+  },
+  {
+    id: 400,
+    savol: "To’g’ri o’qish ta’rifi qaysi?",
+    javob: [
+      { matn: "xato qilmasdan o’qish", correct: false },
+      { matn: "tovushlarni to’g’ri talaffuz qilish", correct: false },
+      { matn: "tovush va so’zlarni xatosiz ravon o’qish", correct: true },
+      { matn: "adabiy talaffuz", correct: false },
+    ],
+  },
+  {
+    id: 401,
+    savol: "To’g’ri o’qishni ta’minlovchi shart qaysi?",
+    javob: [
+      { matn: "matnni oldindan tahlil qilish", correct: true },
+      { matn: "tez o’qish", correct: false },
+      { matn: "shivirlab o’qish", correct: false },
+      { matn: "ichda o’qish", correct: false },
+    ],
+  },
 ]

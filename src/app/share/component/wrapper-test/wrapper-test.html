@@ -1,0 +1,98 @@
+<div class="min-h-screen bg-gray-100 flex items-center justify-center p-4">
+
+  <div class="w-full max-w-sm bg-white rounded-2xl shadow-lg p-5">
+
+    @if(!isFinished()) {
+
+      <!-- TOP INFO -->
+      <div class="mb-5 space-y-2 text-center">
+
+        @if(currentQuetion()) {
+
+          <p class="text-sm text-gray-500">
+            {{ currentIndex() + 1 }} / {{ total() }}
+          </p>
+
+          <p class="text-sm font-medium text-red-500">
+            ⏱ {{ timer() }} sekund
+          </p>
+
+          <h3 class="text-lg font-semibold text-gray-800 mt-2">
+            {{ currentQuetion()?.savol }} <img src="{{currentQuetion()?.img}}" alt="">
+          </h3>
+
+        }
+
+      </div>
+
+      <!-- ANSWERS -->
+      <div class="flex flex-col gap-3 mb-5">
+
+  @for(c of currentQuetion()?.javob; track c.matn) {
+
+    <button
+      (click)="selectAnswer(c)"
+      class="w-full py-3 px-4 rounded-xl border text-left transition active:scale-95"
+
+      [ngClass]="{
+        'bg-green-100 border-green-500':
+          isLocked() && c.correct,
+
+        'bg-red-100 border-red-500':
+          isLocked() && selectedAnswer() === c && !c.correct,
+
+        'opacity-60 cursor-not-allowed':
+          isLocked()
+      }"
+    >
+      {{ c.matn }}
+    </button>
+
+  }
+
+</div>
+
+      <!-- NEXT BUTTON -->
+      <button
+        (click)="nextQuetion()"
+        class="w-full bg-blue-500 text-white py-3 rounded-xl font-medium
+               active:scale-95 transition"
+      >
+        Keyingi savol
+      </button>
+
+    } @else {
+
+      <!-- RESULT PAGE -->
+      <div class="text-center space-y-3">
+
+        <h2 class="text-2xl font-bold text-green-600">
+          Test tugadi 🎉
+        </h2>
+
+        <p class="text-gray-700">
+          Jami savollar: <span class="font-semibold">{{ total() }}</span>
+        </p>
+
+        <p class="text-green-600">
+          To‘g‘ri javoblar: <span class="font-semibold">{{ score() }}</span>
+        </p>
+
+        <p class="text-red-500">
+          Noto‘g‘ri: <span class="font-semibold">{{ total() - score() }}</span>
+        </p>
+             <button
+        [routerLink]="'/choose'"
+        class="w-full bg-blue-500 text-white py-3 rounded-xl font-medium
+               active:scale-95 transition"
+      >
+        Keyingi savol
+      </button>
+
+      </div>
+
+    }
+
+  </div>
+
+</div>

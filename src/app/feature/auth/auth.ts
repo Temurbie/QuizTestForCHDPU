@@ -30,7 +30,7 @@ export class Auth {
   if (user && user.parol === parol  && !user.ban) {
     console.log("Muvaffaqiyatli login!");
     // Bu yerda router orqali o'tkazib yuborish kodi bo'ladi
-    this.router.navigate(['/home']);
+    this.router.navigate(['/choose']);
   }
     else{
     alert("Login yoki parol xato!");
