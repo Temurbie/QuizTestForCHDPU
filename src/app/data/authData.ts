@@ -76,11 +76,82 @@ export const AUTHDATA: IAuth[] = [
 
    
      {
-        id: 11,
+        id: 12,
         ban: false,
         login : 'Maftuna',
         parol: '555maftuna'
     },
-    
+     {
+        id: 13,
+        ban: false,
+        login : 'Charos',
+        parol: '7458charos'
+    },
+     {
+        id: 14,
+        ban: false,
+        login : 'Baxora',
+        parol: '7288baxora'
+    },
+     {
+        id: 15,
+        ban: false,
+        login : 'Saodat',
+        parol: '7392saodat'
+    },
+     {
+        id: 16,
+        ban: false,
+        login : 'Charosgul',
+        parol: '1393charosgul'
+    },
+    {
+        id: 17,
+        ban: false,
+        login : 'Sojida',
+        parol: '5585sojida'
+    },
+    {
+        id: 18,
+        ban: false,
+        login : 'Klara',
+        parol: '3363klara'
+    },
+       {
+        id: 19,
+        ban: false,
+        login : 'Shakarova',
+        parol: '4771shakarova'
+    },
+     {
+        id: 20,
+        ban: false,
+        login : 'Usmonova',
+        parol: '1122usmonova'
+    },
+     {
+        id: 21,
+        ban: false,
+        login : 'NursaidovaF',
+        parol: '4444nursaidova'
+    },
+     {
+        id: 22,
+        ban: false,
+        login : 'Nafisaxon',
+        parol: '2515nafisaxon'
+    },
+     {
+        id: 23,
+        ban: false,
+        login : 'Sevara',
+        parol: '0505sevara'
+    },
+    {
+        id: 23,
+        ban: false,
+        login : 'Dilafruz',
+        parol: '2516dilafruz'
+    },
 
 ]
