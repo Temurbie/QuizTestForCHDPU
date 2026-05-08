@@ -1,4 +1,4 @@
-export interface IAuth{
+hi hiexport interface IAuth{
     id: number
     login: string,
     parol: string,
@@ -223,5 +223,11 @@ export const AUTHDATA: IAuth[] = [
         ban: false,
         login : 'Maxbuba',
         parol: 'Maxbuba21011'
+    },
+        {
+        id: 34,
+        ban: false,
+        login : 'Dili01',
+        parol: 'Dili7778'
     },
 ]
