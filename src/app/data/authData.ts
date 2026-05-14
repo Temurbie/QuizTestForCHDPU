@@ -373,6 +373,13 @@ export const AUTHDATA: IAuth[] = [
         login : 'Barchinoy57',
         parol: 'Test9016'
     },
+{
+        id: 58,
+        ban: false,
+        login : 'Qizlarxon58',
+        parol: 'Test9017'
+    },
+
 
 
 ]
