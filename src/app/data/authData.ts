@@ -407,8 +407,8 @@ export const AUTHDATA: IAuth[] = [
 {
         id: 63,
         ban: false,
-        login : 'AAA6929',
-        parol: 'Test1021'
+        login : 'Dilfuz62',
+        parol: 'Test9022'
     },
 
 {
